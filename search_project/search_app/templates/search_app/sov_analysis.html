@@ -1,0 +1,278 @@
+{% extends "search_app/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="sov-analysis-container">
+    <h2>SOV Analysis</h2>
+    
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+        <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if no_data %}
+        <p>No data available. Please upload a CSV file to begin analysis.</p>
+    {% elif no_paid_ads %}
+        <p>No paid ads data found in the uploaded file. Please ensure your CSV contains paid ads data.</p>
+    {% elif no_grouped_data %}
+        <p>Unable to group the data as required. Please check the format of your CSV file.</p>
+    {% elif insufficient_data %}
+        <p>Insufficient data to generate insights. Please ensure your CSV contains both weekday and weekend data.</p>
+    {% else %}
+        <div class="insights">
+            <h3>Category Analysis</h3>
+            <ul>
+            {% for insight in category_analysis %}
+                <li>{{ insight }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        
+        <div class="chart-container">
+            <h3>Paid Ads Share vs. Organic - Category</h3>
+            <canvas id="sovChart"></canvas>
+        </div>
+    {% endif %}
+    
+    <div class="upload-section">
+        <h3>Upload New Data</h3>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="csv_file" accept=".csv">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100%;
+        background-color: #f3f4f6; /* Slightly darker background for contrast */
+    }
+
+    .sov-analysis-container {
+        max-width: 1000px;
+        margin: 40px auto; /* Provide ample space from top */
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .messages {
+        margin-bottom: 20px;
+    }
+
+    .alert {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+    }
+
+    .alert-error {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+
+    .insights {
+        margin-bottom: 20px;
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px; /* Ensure chart is not too wide */
+        height: 400px; /* Fixed height for the chart */
+        margin: 20px auto; /* Center and space around chart */
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    h2, h3 {
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    p, ul {
+        font-size: 14px;
+        color: #555;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .upload-section {
+        text-align: center;
+        margin-top: 30px; /* Provide enough space above upload section */
+    }
+
+    form {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    input[type="file"] {
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .sov-analysis-container {
+            width: 90%;
+            padding: 15px;
+        }
+
+        .chart-container {
+            max-width: 90%;
+            height: 300px; /* Adjust height for smaller screens */
+        }
+
+        h2, h3 {
+            font-size: 20px; /* Adjusted for smaller screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .sov-analysis-container {
+            width: 95%;
+            padding: 10px;
+        }
+
+        .chart-container {
+            max-width: 100%; /* Full width for very small screens */
+            height: 250px; /* Adjust height for very small screens */
+        }
+
+        h2, h3 {
+            font-size: 18px; /* Smaller headings for small screens */
+        }
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var chartData = {{ chart_data|default:'null'|safe }};
+    if (chartData) {
+        var ctx = document.getElementById('sovChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    label: 'Weekday',
+                    data: chartData.weekday,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointBackgroundColor: '#fff',
+                    pointBorderWidth: 2
+                }, {
+                    label: 'Weekend',
+                    data: chartData.weekend,
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointBackgroundColor: '#fff',
+                    pointBorderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            boxWidth: 20,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    },
+                    tooltip: {
+                        enabled: true,
+                        mode: 'nearest',
+                        intersect: false,
+                        backgroundColor: 'rgba(0,0,0,0.8)',
+                        titleFont: {
+                            size: 14
+                        },
+                        bodyFont: {
+                            size: 12
+                        },
+                        padding: 10,
+                        cornerRadius: 5
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Share of Voice (%)',
+                            font: {
+                                size: 16
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(200, 200, 200, 0.3)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Hour of Day',
+                            font: {
+                                size: 16
+                            }
+                        },
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+    }
+</script>
+{% endblock %}

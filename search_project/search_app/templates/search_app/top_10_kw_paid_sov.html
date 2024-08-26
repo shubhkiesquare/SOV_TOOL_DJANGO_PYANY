@@ -1,0 +1,203 @@
+{% extends "search_app/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="top-10-kw-paid-sov-container">
+    <h2>Top 10 KW Paid SOV</h2>
+
+    {% if no_data %}
+        <p>No data available. Please upload data first.</p>
+    {% else %}
+        <div class="insights">
+            <h3>Insights</h3>
+            <ul>
+            {% for insight in insights %}
+                <li>{{ insight }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+
+        <div class="charts-container">
+            <div class="chart-wrapper">
+                <h3>{{ kw1 }}</h3>
+                <canvas id="chart1"></canvas>
+            </div>
+            <div class="chart-wrapper">
+                <h3>{{ kw2 }}</h3>
+                <canvas id="chart2"></canvas>
+            </div>
+        </div>
+    {% endif %}
+</div>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        height: 100vh;
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+
+    .top-10-kw-paid-sov-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .insights {
+        margin-bottom: 20px;
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .insights h3 {
+        font-size: 18px;
+        color: #333;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .insights ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .insights li {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    .charts-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .chart-wrapper {
+        width: 45%;
+        min-width: 320px;
+        max-width: 450px;
+        height: 350px; /* Fixed height to prevent infinite size */
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        overflow: hidden; /* Prevent overflow within the chart */
+    }
+
+    .chart-wrapper:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    h2, h3 {
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #555;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .charts-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .chart-wrapper {
+            width: 80%;
+            height: 300px; /* Adjusted height for smaller screens */
+        }
+
+        h2, h3 {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .chart-wrapper {
+            width: 95%;
+            height: 280px; /* Further adjusted height for very small screens */
+        }
+
+        h2, h3 {
+            font-size: 18px;
+        }
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var chartData = {{ chart_data|safe }};
+    
+    function createPieChart(canvasId, data) {
+        var ctx = document.getElementById(canvasId).getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            boxWidth: 20,
+                            font: {
+                                size: 14
+                            },
+                            color: '#333'
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                var label = context.label || '';
+                                var value = context.raw || 0;
+                                var total = context.dataset.data.reduce((acc, val) => acc + val, 0);
+                                var percentage = ((value / total) * 100).toFixed(1);
+                                return `${label}: ${value} (${percentage}%)`;
+                            }
+                        },
+                        backgroundColor: 'rgba(0,0,0,0.7)',
+                        titleFont: {
+                            size: 14
+                        },
+                        bodyFont: {
+                            size: 12
+                        },
+                        cornerRadius: 4,
+                        padding: 10
+                    }
+                },
+                animation: {
+                    animateRotate: true,
+                    animateScale: true,
+                    duration: 1000,
+                    easing: 'easeOutBounce'
+                }
+            }
+        });
+    }
+
+    createPieChart('chart1', chartData['{{ kw1 }}']);
+    createPieChart('chart2', chartData['{{ kw2 }}']);
+</script>
+{% endblock %}

@@ -1,0 +1,25 @@
+<!-- search_app/templates/search_app/success.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Scheduled</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1 { margin-bottom: 20px; }
+        .message { background-color: #d4edda; border-color: #c3e6cb; color: #155724; padding: 10px; border-radius: 5px; margin-bottom: 20px; }
+        .button { display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+        .button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Search Scheduled</h1>
+    <div class="message">
+        {{ message }}
+    </div>
+    <p>Your search has been scheduled and will run every 4 hours within the specified date range.</p>
+    <a href="{% url 'download_results' search_query_id %}" class="button">Download Results</a>
+    <a href="{% url 'search' %}" class="button">Schedule Another Search</a>
+</body>
+</html>

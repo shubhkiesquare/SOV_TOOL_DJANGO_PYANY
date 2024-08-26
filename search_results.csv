@@ -1,0 +1,1954 @@
+Date,Brand,Country,Time_of_Day,Day_Type,Share
+2023-01-01,BrandA,USA,Early Morning,Weekend,10.62
+2023-01-01,BrandA,USA,Morning,Weekend,19.26
+2023-01-01,BrandA,USA,Mid-Day,Weekend,15.98
+2023-01-01,BrandA,USA,Afternoon,Weekend,13.98
+2023-01-01,BrandA,USA,Evening,Weekend,7.34
+2023-01-01,BrandA,USA,Night,Weekend,7.34
+2023-01-01,BrandA,USA,Late Night,Weekend,5.87
+2023-01-01,BrandA,UK,Early Morning,Weekend,17.99
+2023-01-01,BrandA,UK,Morning,Weekend,14.02
+2023-01-01,BrandA,UK,Mid-Day,Weekend,15.62
+2023-01-01,BrandA,UK,Afternoon,Weekend,5.31
+2023-01-01,BrandA,UK,Evening,Weekend,19.55
+2023-01-01,BrandA,UK,Night,Weekend,17.49
+2023-01-01,BrandA,UK,Late Night,Weekend,8.19
+2023-01-01,BrandA,Canada,Early Morning,Weekend,7.73
+2023-01-01,BrandA,Canada,Morning,Weekend,7.75
+2023-01-01,BrandA,Canada,Mid-Day,Weekend,9.56
+2023-01-01,BrandA,Canada,Afternoon,Weekend,12.87
+2023-01-01,BrandA,Canada,Evening,Weekend,11.48
+2023-01-01,BrandA,Canada,Night,Weekend,9.37
+2023-01-01,BrandA,Canada,Late Night,Weekend,14.18
+2023-01-01,BrandB,USA,Early Morning,Weekend,7.09
+2023-01-01,BrandB,USA,Morning,Weekend,9.38
+2023-01-01,BrandB,USA,Mid-Day,Weekend,10.5
+2023-01-01,BrandB,USA,Afternoon,Weekend,11.84
+2023-01-01,BrandB,USA,Evening,Weekend,16.78
+2023-01-01,BrandB,USA,Night,Weekend,8.0
+2023-01-01,BrandB,USA,Late Night,Weekend,12.71
+2023-01-01,BrandB,UK,Early Morning,Weekend,13.89
+2023-01-01,BrandB,UK,Morning,Weekend,5.7
+2023-01-01,BrandB,UK,Mid-Day,Weekend,14.11
+2023-01-01,BrandB,UK,Afternoon,Weekend,7.56
+2023-01-01,BrandB,UK,Evening,Weekend,5.98
+2023-01-01,BrandB,UK,Night,Weekend,19.23
+2023-01-01,BrandB,UK,Late Night,Weekend,19.48
+2023-01-01,BrandB,Canada,Early Morning,Weekend,17.13
+2023-01-01,BrandB,Canada,Morning,Weekend,9.57
+2023-01-01,BrandB,Canada,Mid-Day,Weekend,6.47
+2023-01-01,BrandB,Canada,Afternoon,Weekend,15.26
+2023-01-01,BrandB,Canada,Evening,Weekend,11.6
+2023-01-01,BrandB,Canada,Night,Weekend,6.83
+2023-01-01,BrandB,Canada,Late Night,Weekend,12.43
+2023-01-01,BrandC,USA,Early Morning,Weekend,5.52
+2023-01-01,BrandC,USA,Morning,Weekend,18.64
+2023-01-01,BrandC,USA,Mid-Day,Weekend,8.88
+2023-01-01,BrandC,USA,Afternoon,Weekend,14.94
+2023-01-01,BrandC,USA,Evening,Weekend,9.68
+2023-01-01,BrandC,USA,Night,Weekend,12.8
+2023-01-01,BrandC,USA,Late Night,Weekend,13.2
+2023-01-01,BrandC,UK,Early Morning,Weekend,7.77
+2023-01-01,BrandC,UK,Morning,Weekend,19.54
+2023-01-01,BrandC,UK,Mid-Day,Weekend,16.63
+2023-01-01,BrandC,UK,Afternoon,Weekend,19.09
+2023-01-01,BrandC,UK,Evening,Weekend,18.42
+2023-01-01,BrandC,UK,Night,Weekend,13.97
+2023-01-01,BrandC,UK,Late Night,Weekend,18.83
+2023-01-01,BrandC,Canada,Early Morning,Weekend,6.33
+2023-01-01,BrandC,Canada,Morning,Weekend,7.94
+2023-01-01,BrandC,Canada,Mid-Day,Weekend,5.68
+2023-01-01,BrandC,Canada,Afternoon,Weekend,9.88
+2023-01-01,BrandC,Canada,Evening,Weekend,10.83
+2023-01-01,BrandC,Canada,Night,Weekend,9.07
+2023-01-01,BrandC,Canada,Late Night,Weekend,17.43
+2023-01-02,BrandA,USA,Early Morning,Weekday,10.35
+2023-01-02,BrandA,USA,Morning,Weekday,9.21
+2023-01-02,BrandA,USA,Mid-Day,Weekday,13.14
+2023-01-02,BrandA,USA,Afternoon,Weekday,7.11
+2023-01-02,BrandA,USA,Evening,Weekday,17.03
+2023-01-02,BrandA,USA,Night,Weekday,6.12
+2023-01-02,BrandA,USA,Late Night,Weekday,19.8
+2023-01-02,BrandA,UK,Early Morning,Weekday,16.58
+2023-01-02,BrandA,UK,Morning,Weekday,7.98
+2023-01-02,BrandA,UK,Mid-Day,Weekday,5.08
+2023-01-02,BrandA,UK,Afternoon,Weekday,17.23
+2023-01-02,BrandA,UK,Evening,Weekday,15.6
+2023-01-02,BrandA,UK,Night,Weekday,15.94
+2023-01-02,BrandA,UK,Late Night,Weekday,16.57
+2023-01-02,BrandA,Canada,Early Morning,Weekday,6.11
+2023-01-02,BrandA,Canada,Morning,Weekday,10.38
+2023-01-02,BrandA,Canada,Mid-Day,Weekday,6.74
+2023-01-02,BrandA,Canada,Afternoon,Weekday,17.95
+2023-01-02,BrandA,Canada,Evening,Weekday,14.35
+2023-01-02,BrandA,Canada,Night,Weekday,9.96
+2023-01-02,BrandA,Canada,Late Night,Weekday,5.95
+2023-01-02,BrandB,USA,Early Morning,Weekday,9.66
+2023-01-02,BrandB,USA,Morning,Weekday,9.88
+2023-01-02,BrandB,USA,Mid-Day,Weekday,15.94
+2023-01-02,BrandB,USA,Afternoon,Weekday,14.56
+2023-01-02,BrandB,USA,Evening,Weekday,18.31
+2023-01-02,BrandB,USA,Night,Weekday,12.08
+2023-01-02,BrandB,USA,Late Night,Weekday,6.79
+2023-01-02,BrandB,UK,Early Morning,Weekday,15.7
+2023-01-02,BrandB,UK,Morning,Weekday,16.41
+2023-01-02,BrandB,UK,Mid-Day,Weekday,13.42
+2023-01-02,BrandB,UK,Afternoon,Weekday,16.56
+2023-01-02,BrandB,UK,Evening,Weekday,12.41
+2023-01-02,BrandB,UK,Night,Weekday,12.84
+2023-01-02,BrandB,UK,Late Night,Weekday,11.41
+2023-01-02,BrandB,Canada,Early Morning,Weekday,5.38
+2023-01-02,BrandB,Canada,Morning,Weekday,6.62
+2023-01-02,BrandB,Canada,Mid-Day,Weekday,5.47
+2023-01-02,BrandB,Canada,Afternoon,Weekday,14.55
+2023-01-02,BrandB,Canada,Evening,Weekday,9.72
+2023-01-02,BrandB,Canada,Night,Weekday,12.63
+2023-01-02,BrandB,Canada,Late Night,Weekday,18.61
+2023-01-02,BrandC,USA,Early Morning,Weekday,8.74
+2023-01-02,BrandC,USA,Morning,Weekday,11.16
+2023-01-02,BrandC,USA,Mid-Day,Weekday,16.33
+2023-01-02,BrandC,USA,Afternoon,Weekday,8.43
+2023-01-02,BrandC,USA,Evening,Weekday,6.15
+2023-01-02,BrandC,USA,Night,Weekday,9.35
+2023-01-02,BrandC,USA,Late Night,Weekday,7.42
+2023-01-02,BrandC,UK,Early Morning,Weekday,18.95
+2023-01-02,BrandC,UK,Morning,Weekday,17.12
+2023-01-02,BrandC,UK,Mid-Day,Weekday,14.5
+2023-01-02,BrandC,UK,Afternoon,Weekday,18.07
+2023-01-02,BrandC,UK,Evening,Weekday,17.06
+2023-01-02,BrandC,UK,Night,Weekday,7.8
+2023-01-02,BrandC,UK,Late Night,Weekday,18.39
+2023-01-02,BrandC,Canada,Early Morning,Weekday,13.09
+2023-01-02,BrandC,Canada,Morning,Weekday,17.11
+2023-01-02,BrandC,Canada,Mid-Day,Weekday,18.44
+2023-01-02,BrandC,Canada,Afternoon,Weekday,9.77
+2023-01-02,BrandC,Canada,Evening,Weekday,6.65
+2023-01-02,BrandC,Canada,Night,Weekday,8.42
+2023-01-02,BrandC,Canada,Late Night,Weekday,11.41
+2023-01-03,BrandA,USA,Early Morning,Weekday,17.27
+2023-01-03,BrandA,USA,Morning,Weekday,17.91
+2023-01-03,BrandA,USA,Mid-Day,Weekday,5.1
+2023-01-03,BrandA,USA,Afternoon,Weekday,12.66
+2023-01-03,BrandA,USA,Evening,Weekday,11.26
+2023-01-03,BrandA,USA,Night,Weekday,8.33
+2023-01-03,BrandA,USA,Late Night,Weekday,6.8
+2023-01-03,BrandA,UK,Early Morning,Weekday,10.06
+2023-01-03,BrandA,UK,Morning,Weekday,19.14
+2023-01-03,BrandA,UK,Mid-Day,Weekday,9.85
+2023-01-03,BrandA,UK,Afternoon,Weekday,12.78
+2023-01-03,BrandA,UK,Evening,Weekday,15.55
+2023-01-03,BrandA,UK,Night,Weekday,10.45
+2023-01-03,BrandA,UK,Late Night,Weekday,19.58
+2023-01-03,BrandA,Canada,Early Morning,Weekday,19.44
+2023-01-03,BrandA,Canada,Morning,Weekday,8.78
+2023-01-03,BrandA,Canada,Mid-Day,Weekday,12.46
+2023-01-03,BrandA,Canada,Afternoon,Weekday,9.51
+2023-01-03,BrandA,Canada,Evening,Weekday,9.27
+2023-01-03,BrandA,Canada,Night,Weekday,5.55
+2023-01-03,BrandA,Canada,Late Night,Weekday,14.14
+2023-01-03,BrandB,USA,Early Morning,Weekday,12.54
+2023-01-03,BrandB,USA,Morning,Weekday,5.77
+2023-01-03,BrandB,USA,Mid-Day,Weekday,9.18
+2023-01-03,BrandB,USA,Afternoon,Weekday,18.62
+2023-01-03,BrandB,USA,Evening,Weekday,8.59
+2023-01-03,BrandB,USA,Night,Weekday,7.17
+2023-01-03,BrandB,USA,Late Night,Weekday,12.34
+2023-01-03,BrandB,UK,Early Morning,Weekday,19.78
+2023-01-03,BrandB,UK,Morning,Weekday,8.63
+2023-01-03,BrandB,UK,Mid-Day,Weekday,15.08
+2023-01-03,BrandB,UK,Afternoon,Weekday,16.42
+2023-01-03,BrandB,UK,Evening,Weekday,8.56
+2023-01-03,BrandB,UK,Night,Weekday,15.92
+2023-01-03,BrandB,UK,Late Night,Weekday,10.52
+2023-01-03,BrandB,Canada,Early Morning,Weekday,14.48
+2023-01-03,BrandB,Canada,Morning,Weekday,14.5
+2023-01-03,BrandB,Canada,Mid-Day,Weekday,13.04
+2023-01-03,BrandB,Canada,Afternoon,Weekday,6.35
+2023-01-03,BrandB,Canada,Evening,Weekday,17.53
+2023-01-03,BrandB,Canada,Night,Weekday,9.81
+2023-01-03,BrandB,Canada,Late Night,Weekday,7.8
+2023-01-03,BrandC,USA,Early Morning,Weekday,5.61
+2023-01-03,BrandC,USA,Morning,Weekday,13.86
+2023-01-03,BrandC,USA,Mid-Day,Weekday,15.16
+2023-01-03,BrandC,USA,Afternoon,Weekday,5.25
+2023-01-03,BrandC,USA,Evening,Weekday,12.68
+2023-01-03,BrandC,USA,Night,Weekday,8.4
+2023-01-03,BrandC,USA,Late Night,Weekday,14.68
+2023-01-03,BrandC,UK,Early Morning,Weekday,7.62
+2023-01-03,BrandC,UK,Morning,Weekday,15.36
+2023-01-03,BrandC,UK,Mid-Day,Weekday,10.8
+2023-01-03,BrandC,UK,Afternoon,Weekday,19.05
+2023-01-03,BrandC,UK,Evening,Weekday,7.06
+2023-01-03,BrandC,UK,Night,Weekday,10.12
+2023-01-03,BrandC,UK,Late Night,Weekday,6.7
+2023-01-03,BrandC,Canada,Early Morning,Weekday,18.87
+2023-01-03,BrandC,Canada,Morning,Weekday,18.16
+2023-01-03,BrandC,Canada,Mid-Day,Weekday,8.87
+2023-01-03,BrandC,Canada,Afternoon,Weekday,14.9
+2023-01-03,BrandC,Canada,Evening,Weekday,17.26
+2023-01-03,BrandC,Canada,Night,Weekday,13.33
+2023-01-03,BrandC,Canada,Late Night,Weekday,12.94
+2023-01-04,BrandA,USA,Early Morning,Weekday,8.63
+2023-01-04,BrandA,USA,Morning,Weekday,6.4
+2023-01-04,BrandA,USA,Mid-Day,Weekday,18.46
+2023-01-04,BrandA,USA,Afternoon,Weekday,18.51
+2023-01-04,BrandA,USA,Evening,Weekday,14.5
+2023-01-04,BrandA,USA,Night,Weekday,10.09
+2023-01-04,BrandA,USA,Late Night,Weekday,10.24
+2023-01-04,BrandA,UK,Early Morning,Weekday,15.89
+2023-01-04,BrandA,UK,Morning,Weekday,18.46
+2023-01-04,BrandA,UK,Mid-Day,Weekday,18.31
+2023-01-04,BrandA,UK,Afternoon,Weekday,16.7
+2023-01-04,BrandA,UK,Evening,Weekday,14.63
+2023-01-04,BrandA,UK,Night,Weekday,6.26
+2023-01-04,BrandA,UK,Late Night,Weekday,7.42
+2023-01-04,BrandA,Canada,Early Morning,Weekday,18.48
+2023-01-04,BrandA,Canada,Morning,Weekday,14.1
+2023-01-04,BrandA,Canada,Mid-Day,Weekday,5.14
+2023-01-04,BrandA,Canada,Afternoon,Weekday,6.52
+2023-01-04,BrandA,Canada,Evening,Weekday,14.95
+2023-01-04,BrandA,Canada,Night,Weekday,5.08
+2023-01-04,BrandA,Canada,Late Night,Weekday,7.41
+2023-01-04,BrandB,USA,Early Morning,Weekday,13.23
+2023-01-04,BrandB,USA,Morning,Weekday,15.38
+2023-01-04,BrandB,USA,Mid-Day,Weekday,14.78
+2023-01-04,BrandB,USA,Afternoon,Weekday,8.36
+2023-01-04,BrandB,USA,Evening,Weekday,15.68
+2023-01-04,BrandB,USA,Night,Weekday,8.56
+2023-01-04,BrandB,USA,Late Night,Weekday,9.88
+2023-01-04,BrandB,UK,Early Morning,Weekday,16.2
+2023-01-04,BrandB,UK,Morning,Weekday,14.74
+2023-01-04,BrandB,UK,Mid-Day,Weekday,17.74
+2023-01-04,BrandB,UK,Afternoon,Weekday,14.86
+2023-01-04,BrandB,UK,Evening,Weekday,13.52
+2023-01-04,BrandB,UK,Night,Weekday,6.41
+2023-01-04,BrandB,UK,Late Night,Weekday,10.52
+2023-01-04,BrandB,Canada,Early Morning,Weekday,8.98
+2023-01-04,BrandB,Canada,Morning,Weekday,8.66
+2023-01-04,BrandB,Canada,Mid-Day,Weekday,19.6
+2023-01-04,BrandB,Canada,Afternoon,Weekday,10.9
+2023-01-04,BrandB,Canada,Evening,Weekday,18.38
+2023-01-04,BrandB,Canada,Night,Weekday,14.47
+2023-01-04,BrandB,Canada,Late Night,Weekday,16.92
+2023-01-04,BrandC,USA,Early Morning,Weekday,12.54
+2023-01-04,BrandC,USA,Morning,Weekday,13.65
+2023-01-04,BrandC,USA,Mid-Day,Weekday,12.39
+2023-01-04,BrandC,USA,Afternoon,Weekday,7.93
+2023-01-04,BrandC,USA,Evening,Weekday,15.84
+2023-01-04,BrandC,USA,Night,Weekday,9.21
+2023-01-04,BrandC,USA,Late Night,Weekday,5.36
+2023-01-04,BrandC,UK,Early Morning,Weekday,14.68
+2023-01-04,BrandC,UK,Morning,Weekday,7.66
+2023-01-04,BrandC,UK,Mid-Day,Weekday,19.11
+2023-01-04,BrandC,UK,Afternoon,Weekday,19.31
+2023-01-04,BrandC,UK,Evening,Weekday,18.72
+2023-01-04,BrandC,UK,Night,Weekday,10.55
+2023-01-04,BrandC,UK,Late Night,Weekday,5.23
+2023-01-04,BrandC,Canada,Early Morning,Weekday,18.92
+2023-01-04,BrandC,Canada,Morning,Weekday,11.42
+2023-01-04,BrandC,Canada,Mid-Day,Weekday,19.5
+2023-01-04,BrandC,Canada,Afternoon,Weekday,19.45
+2023-01-04,BrandC,Canada,Evening,Weekday,17.8
+2023-01-04,BrandC,Canada,Night,Weekday,9.42
+2023-01-04,BrandC,Canada,Late Night,Weekday,10.78
+2023-01-05,BrandA,USA,Early Morning,Weekday,17.77
+2023-01-05,BrandA,USA,Morning,Weekday,9.75
+2023-01-05,BrandA,USA,Mid-Day,Weekday,7.54
+2023-01-05,BrandA,USA,Afternoon,Weekday,13.35
+2023-01-05,BrandA,USA,Evening,Weekday,19.04
+2023-01-05,BrandA,USA,Night,Weekday,15.44
+2023-01-05,BrandA,USA,Late Night,Weekday,13.55
+2023-01-05,BrandA,UK,Early Morning,Weekday,6.46
+2023-01-05,BrandA,UK,Morning,Weekday,14.23
+2023-01-05,BrandA,UK,Mid-Day,Weekday,19.85
+2023-01-05,BrandA,UK,Afternoon,Weekday,7.1
+2023-01-05,BrandA,UK,Evening,Weekday,12.77
+2023-01-05,BrandA,UK,Night,Weekday,18.16
+2023-01-05,BrandA,UK,Late Night,Weekday,16.11
+2023-01-05,BrandA,Canada,Early Morning,Weekday,15.46
+2023-01-05,BrandA,Canada,Morning,Weekday,15.54
+2023-01-05,BrandA,Canada,Mid-Day,Weekday,10.39
+2023-01-05,BrandA,Canada,Afternoon,Weekday,9.4
+2023-01-05,BrandA,Canada,Evening,Weekday,17.14
+2023-01-05,BrandA,Canada,Night,Weekday,17.15
+2023-01-05,BrandA,Canada,Late Night,Weekday,18.01
+2023-01-05,BrandB,USA,Early Morning,Weekday,18.7
+2023-01-05,BrandB,USA,Morning,Weekday,12.67
+2023-01-05,BrandB,USA,Mid-Day,Weekday,12.52
+2023-01-05,BrandB,USA,Afternoon,Weekday,16.97
+2023-01-05,BrandB,USA,Evening,Weekday,14.75
+2023-01-05,BrandB,USA,Night,Weekday,15.53
+2023-01-05,BrandB,USA,Late Night,Weekday,16.94
+2023-01-05,BrandB,UK,Early Morning,Weekday,18.35
+2023-01-05,BrandB,UK,Morning,Weekday,10.07
+2023-01-05,BrandB,UK,Mid-Day,Weekday,10.63
+2023-01-05,BrandB,UK,Afternoon,Weekday,6.41
+2023-01-05,BrandB,UK,Evening,Weekday,13.67
+2023-01-05,BrandB,UK,Night,Weekday,5.54
+2023-01-05,BrandB,UK,Late Night,Weekday,11.98
+2023-01-05,BrandB,Canada,Early Morning,Weekday,13.14
+2023-01-05,BrandB,Canada,Morning,Weekday,9.3
+2023-01-05,BrandB,Canada,Mid-Day,Weekday,13.86
+2023-01-05,BrandB,Canada,Afternoon,Weekday,5.46
+2023-01-05,BrandB,Canada,Evening,Weekday,5.56
+2023-01-05,BrandB,Canada,Night,Weekday,17.34
+2023-01-05,BrandB,Canada,Late Night,Weekday,10.4
+2023-01-05,BrandC,USA,Early Morning,Weekday,6.91
+2023-01-05,BrandC,USA,Morning,Weekday,12.83
+2023-01-05,BrandC,USA,Mid-Day,Weekday,16.55
+2023-01-05,BrandC,USA,Afternoon,Weekday,8.24
+2023-01-05,BrandC,USA,Evening,Weekday,14.34
+2023-01-05,BrandC,USA,Night,Weekday,6.28
+2023-01-05,BrandC,USA,Late Night,Weekday,5.78
+2023-01-05,BrandC,UK,Early Morning,Weekday,12.97
+2023-01-05,BrandC,UK,Morning,Weekday,13.11
+2023-01-05,BrandC,UK,Mid-Day,Weekday,14.56
+2023-01-05,BrandC,UK,Afternoon,Weekday,15.89
+2023-01-05,BrandC,UK,Evening,Weekday,19.64
+2023-01-05,BrandC,UK,Night,Weekday,12.74
+2023-01-05,BrandC,UK,Late Night,Weekday,9.84
+2023-01-05,BrandC,Canada,Early Morning,Weekday,16.93
+2023-01-05,BrandC,Canada,Morning,Weekday,9.06
+2023-01-05,BrandC,Canada,Mid-Day,Weekday,11.58
+2023-01-05,BrandC,Canada,Afternoon,Weekday,6.18
+2023-01-05,BrandC,Canada,Evening,Weekday,5.38
+2023-01-05,BrandC,Canada,Night,Weekday,19.44
+2023-01-05,BrandC,Canada,Late Night,Weekday,17.54
+2023-01-06,BrandA,USA,Early Morning,Weekday,15.44
+2023-01-06,BrandA,USA,Morning,Weekday,11.13
+2023-01-06,BrandA,USA,Mid-Day,Weekday,7.6
+2023-01-06,BrandA,USA,Afternoon,Weekday,7.35
+2023-01-06,BrandA,USA,Evening,Weekday,8.75
+2023-01-06,BrandA,USA,Night,Weekday,13.24
+2023-01-06,BrandA,USA,Late Night,Weekday,15.72
+2023-01-06,BrandA,UK,Early Morning,Weekday,14.9
+2023-01-06,BrandA,UK,Morning,Weekday,9.2
+2023-01-06,BrandA,UK,Mid-Day,Weekday,19.32
+2023-01-06,BrandA,UK,Afternoon,Weekday,16.07
+2023-01-06,BrandA,UK,Evening,Weekday,13.32
+2023-01-06,BrandA,UK,Night,Weekday,14.18
+2023-01-06,BrandA,UK,Late Night,Weekday,11.29
+2023-01-06,BrandA,Canada,Early Morning,Weekday,8.72
+2023-01-06,BrandA,Canada,Morning,Weekday,10.34
+2023-01-06,BrandA,Canada,Mid-Day,Weekday,16.37
+2023-01-06,BrandA,Canada,Afternoon,Weekday,5.22
+2023-01-06,BrandA,Canada,Evening,Weekday,6.74
+2023-01-06,BrandA,Canada,Night,Weekday,5.69
+2023-01-06,BrandA,Canada,Late Night,Weekday,5.61
+2023-01-06,BrandB,USA,Early Morning,Weekday,17.83
+2023-01-06,BrandB,USA,Morning,Weekday,15.55
+2023-01-06,BrandB,USA,Mid-Day,Weekday,12.11
+2023-01-06,BrandB,USA,Afternoon,Weekday,6.47
+2023-01-06,BrandB,USA,Evening,Weekday,12.37
+2023-01-06,BrandB,USA,Night,Weekday,12.1
+2023-01-06,BrandB,USA,Late Night,Weekday,7.6
+2023-01-06,BrandB,UK,Early Morning,Weekday,11.51
+2023-01-06,BrandB,UK,Morning,Weekday,10.98
+2023-01-06,BrandB,UK,Mid-Day,Weekday,14.24
+2023-01-06,BrandB,UK,Afternoon,Weekday,14.53
+2023-01-06,BrandB,UK,Evening,Weekday,5.68
+2023-01-06,BrandB,UK,Night,Weekday,10.62
+2023-01-06,BrandB,UK,Late Night,Weekday,14.39
+2023-01-06,BrandB,Canada,Early Morning,Weekday,12.55
+2023-01-06,BrandB,Canada,Morning,Weekday,17.85
+2023-01-06,BrandB,Canada,Mid-Day,Weekday,14.88
+2023-01-06,BrandB,Canada,Afternoon,Weekday,7.44
+2023-01-06,BrandB,Canada,Evening,Weekday,6.06
+2023-01-06,BrandB,Canada,Night,Weekday,14.64
+2023-01-06,BrandB,Canada,Late Night,Weekday,5.4
+2023-01-06,BrandC,USA,Early Morning,Weekday,13.79
+2023-01-06,BrandC,USA,Morning,Weekday,19.1
+2023-01-06,BrandC,USA,Mid-Day,Weekday,13.63
+2023-01-06,BrandC,USA,Afternoon,Weekday,10.82
+2023-01-06,BrandC,USA,Evening,Weekday,14.65
+2023-01-06,BrandC,USA,Night,Weekday,11.87
+2023-01-06,BrandC,USA,Late Night,Weekday,13.18
+2023-01-06,BrandC,UK,Early Morning,Weekday,19.12
+2023-01-06,BrandC,UK,Morning,Weekday,10.79
+2023-01-06,BrandC,UK,Mid-Day,Weekday,19.42
+2023-01-06,BrandC,UK,Afternoon,Weekday,18.58
+2023-01-06,BrandC,UK,Evening,Weekday,7.94
+2023-01-06,BrandC,UK,Night,Weekday,6.04
+2023-01-06,BrandC,UK,Late Night,Weekday,6.51
+2023-01-06,BrandC,Canada,Early Morning,Weekday,5.27
+2023-01-06,BrandC,Canada,Morning,Weekday,6.42
+2023-01-06,BrandC,Canada,Mid-Day,Weekday,15.25
+2023-01-06,BrandC,Canada,Afternoon,Weekday,6.07
+2023-01-06,BrandC,Canada,Evening,Weekday,9.78
+2023-01-06,BrandC,Canada,Night,Weekday,17.67
+2023-01-06,BrandC,Canada,Late Night,Weekday,5.35
+2023-01-07,BrandA,USA,Early Morning,Weekend,17.22
+2023-01-07,BrandA,USA,Morning,Weekend,9.23
+2023-01-07,BrandA,USA,Mid-Day,Weekend,6.77
+2023-01-07,BrandA,USA,Afternoon,Weekend,15.45
+2023-01-07,BrandA,USA,Evening,Weekend,14.43
+2023-01-07,BrandA,USA,Night,Weekend,18.16
+2023-01-07,BrandA,USA,Late Night,Weekend,16.03
+2023-01-07,BrandA,UK,Early Morning,Weekend,17.05
+2023-01-07,BrandA,UK,Morning,Weekend,9.23
+2023-01-07,BrandA,UK,Mid-Day,Weekend,7.66
+2023-01-07,BrandA,UK,Afternoon,Weekend,16.26
+2023-01-07,BrandA,UK,Evening,Weekend,17.1
+2023-01-07,BrandA,UK,Night,Weekend,19.86
+2023-01-07,BrandA,UK,Late Night,Weekend,11.19
+2023-01-07,BrandA,Canada,Early Morning,Weekend,10.58
+2023-01-07,BrandA,Canada,Morning,Weekend,16.65
+2023-01-07,BrandA,Canada,Mid-Day,Weekend,10.11
+2023-01-07,BrandA,Canada,Afternoon,Weekend,18.96
+2023-01-07,BrandA,Canada,Evening,Weekend,17.88
+2023-01-07,BrandA,Canada,Night,Weekend,11.43
+2023-01-07,BrandA,Canada,Late Night,Weekend,16.26
+2023-01-07,BrandB,USA,Early Morning,Weekend,16.32
+2023-01-07,BrandB,USA,Morning,Weekend,6.55
+2023-01-07,BrandB,USA,Mid-Day,Weekend,18.54
+2023-01-07,BrandB,USA,Afternoon,Weekend,12.58
+2023-01-07,BrandB,USA,Evening,Weekend,17.4
+2023-01-07,BrandB,USA,Night,Weekend,9.8
+2023-01-07,BrandB,USA,Late Night,Weekend,18.43
+2023-01-07,BrandB,UK,Early Morning,Weekend,10.84
+2023-01-07,BrandB,UK,Morning,Weekend,5.16
+2023-01-07,BrandB,UK,Mid-Day,Weekend,18.58
+2023-01-07,BrandB,UK,Afternoon,Weekend,6.37
+2023-01-07,BrandB,UK,Evening,Weekend,9.79
+2023-01-07,BrandB,UK,Night,Weekend,19.25
+2023-01-07,BrandB,UK,Late Night,Weekend,19.26
+2023-01-07,BrandB,Canada,Early Morning,Weekend,13.6
+2023-01-07,BrandB,Canada,Morning,Weekend,14.48
+2023-01-07,BrandB,Canada,Mid-Day,Weekend,11.73
+2023-01-07,BrandB,Canada,Afternoon,Weekend,9.4
+2023-01-07,BrandB,Canada,Evening,Weekend,9.93
+2023-01-07,BrandB,Canada,Night,Weekend,15.09
+2023-01-07,BrandB,Canada,Late Night,Weekend,16.29
+2023-01-07,BrandC,USA,Early Morning,Weekend,16.87
+2023-01-07,BrandC,USA,Morning,Weekend,16.84
+2023-01-07,BrandC,USA,Mid-Day,Weekend,6.37
+2023-01-07,BrandC,USA,Afternoon,Weekend,12.42
+2023-01-07,BrandC,USA,Evening,Weekend,5.86
+2023-01-07,BrandC,USA,Night,Weekend,13.24
+2023-01-07,BrandC,USA,Late Night,Weekend,11.62
+2023-01-07,BrandC,UK,Early Morning,Weekend,18.32
+2023-01-07,BrandC,UK,Morning,Weekend,10.26
+2023-01-07,BrandC,UK,Mid-Day,Weekend,6.76
+2023-01-07,BrandC,UK,Afternoon,Weekend,7.14
+2023-01-07,BrandC,UK,Evening,Weekend,16.42
+2023-01-07,BrandC,UK,Night,Weekend,14.27
+2023-01-07,BrandC,UK,Late Night,Weekend,6.52
+2023-01-07,BrandC,Canada,Early Morning,Weekend,6.26
+2023-01-07,BrandC,Canada,Morning,Weekend,15.51
+2023-01-07,BrandC,Canada,Mid-Day,Weekend,6.09
+2023-01-07,BrandC,Canada,Afternoon,Weekend,17.33
+2023-01-07,BrandC,Canada,Evening,Weekend,15.59
+2023-01-07,BrandC,Canada,Night,Weekend,6.22
+2023-01-07,BrandC,Canada,Late Night,Weekend,6.27
+2023-01-08,BrandA,USA,Early Morning,Weekend,19.8
+2023-01-08,BrandA,USA,Morning,Weekend,10.61
+2023-01-08,BrandA,USA,Mid-Day,Weekend,10.56
+2023-01-08,BrandA,USA,Afternoon,Weekend,17.19
+2023-01-08,BrandA,USA,Evening,Weekend,19.21
+2023-01-08,BrandA,USA,Night,Weekend,19.79
+2023-01-08,BrandA,USA,Late Night,Weekend,16.3
+2023-01-08,BrandA,UK,Early Morning,Weekend,10.64
+2023-01-08,BrandA,UK,Morning,Weekend,6.25
+2023-01-08,BrandA,UK,Mid-Day,Weekend,16.66
+2023-01-08,BrandA,UK,Afternoon,Weekend,13.38
+2023-01-08,BrandA,UK,Evening,Weekend,11.36
+2023-01-08,BrandA,UK,Night,Weekend,18.6
+2023-01-08,BrandA,UK,Late Night,Weekend,6.67
+2023-01-08,BrandA,Canada,Early Morning,Weekend,12.39
+2023-01-08,BrandA,Canada,Morning,Weekend,5.17
+2023-01-08,BrandA,Canada,Mid-Day,Weekend,12.03
+2023-01-08,BrandA,Canada,Afternoon,Weekend,5.84
+2023-01-08,BrandA,Canada,Evening,Weekend,6.78
+2023-01-08,BrandA,Canada,Night,Weekend,6.76
+2023-01-08,BrandA,Canada,Late Night,Weekend,14.74
+2023-01-08,BrandB,USA,Early Morning,Weekend,16.19
+2023-01-08,BrandB,USA,Morning,Weekend,13.75
+2023-01-08,BrandB,USA,Mid-Day,Weekend,19.43
+2023-01-08,BrandB,USA,Afternoon,Weekend,10.62
+2023-01-08,BrandB,USA,Evening,Weekend,9.29
+2023-01-08,BrandB,USA,Night,Weekend,18.03
+2023-01-08,BrandB,USA,Late Night,Weekend,8.35
+2023-01-08,BrandB,UK,Early Morning,Weekend,19.45
+2023-01-08,BrandB,UK,Morning,Weekend,5.18
+2023-01-08,BrandB,UK,Mid-Day,Weekend,19.55
+2023-01-08,BrandB,UK,Afternoon,Weekend,5.65
+2023-01-08,BrandB,UK,Evening,Weekend,18.37
+2023-01-08,BrandB,UK,Night,Weekend,12.92
+2023-01-08,BrandB,UK,Late Night,Weekend,19.89
+2023-01-08,BrandB,Canada,Early Morning,Weekend,6.11
+2023-01-08,BrandB,Canada,Morning,Weekend,13.31
+2023-01-08,BrandB,Canada,Mid-Day,Weekend,19.54
+2023-01-08,BrandB,Canada,Afternoon,Weekend,12.85
+2023-01-08,BrandB,Canada,Evening,Weekend,14.44
+2023-01-08,BrandB,Canada,Night,Weekend,15.44
+2023-01-08,BrandB,Canada,Late Night,Weekend,11.82
+2023-01-08,BrandC,USA,Early Morning,Weekend,14.41
+2023-01-08,BrandC,USA,Morning,Weekend,13.76
+2023-01-08,BrandC,USA,Mid-Day,Weekend,18.52
+2023-01-08,BrandC,USA,Afternoon,Weekend,5.68
+2023-01-08,BrandC,USA,Evening,Weekend,9.21
+2023-01-08,BrandC,USA,Night,Weekend,19.26
+2023-01-08,BrandC,USA,Late Night,Weekend,18.35
+2023-01-08,BrandC,UK,Early Morning,Weekend,11.83
+2023-01-08,BrandC,UK,Morning,Weekend,14.3
+2023-01-08,BrandC,UK,Mid-Day,Weekend,9.16
+2023-01-08,BrandC,UK,Afternoon,Weekend,7.82
+2023-01-08,BrandC,UK,Evening,Weekend,11.96
+2023-01-08,BrandC,UK,Night,Weekend,10.3
+2023-01-08,BrandC,UK,Late Night,Weekend,13.75
+2023-01-08,BrandC,Canada,Early Morning,Weekend,6.17
+2023-01-08,BrandC,Canada,Morning,Weekend,19.62
+2023-01-08,BrandC,Canada,Mid-Day,Weekend,19.79
+2023-01-08,BrandC,Canada,Afternoon,Weekend,15.47
+2023-01-08,BrandC,Canada,Evening,Weekend,13.04
+2023-01-08,BrandC,Canada,Night,Weekend,9.64
+2023-01-08,BrandC,Canada,Late Night,Weekend,17.21
+2023-01-09,BrandA,USA,Early Morning,Weekday,15.27
+2023-01-09,BrandA,USA,Morning,Weekday,7.44
+2023-01-09,BrandA,USA,Mid-Day,Weekday,18.66
+2023-01-09,BrandA,USA,Afternoon,Weekday,17.34
+2023-01-09,BrandA,USA,Evening,Weekday,19.25
+2023-01-09,BrandA,USA,Night,Weekday,15.89
+2023-01-09,BrandA,USA,Late Night,Weekday,14.2
+2023-01-09,BrandA,UK,Early Morning,Weekday,11.27
+2023-01-09,BrandA,UK,Morning,Weekday,18.99
+2023-01-09,BrandA,UK,Mid-Day,Weekday,17.99
+2023-01-09,BrandA,UK,Afternoon,Weekday,5.68
+2023-01-09,BrandA,UK,Evening,Weekday,5.4
+2023-01-09,BrandA,UK,Night,Weekday,10.65
+2023-01-09,BrandA,UK,Late Night,Weekday,17.16
+2023-01-09,BrandA,Canada,Early Morning,Weekday,19.81
+2023-01-09,BrandA,Canada,Morning,Weekday,7.26
+2023-01-09,BrandA,Canada,Mid-Day,Weekday,13.91
+2023-01-09,BrandA,Canada,Afternoon,Weekday,10.71
+2023-01-09,BrandA,Canada,Evening,Weekday,19.55
+2023-01-09,BrandA,Canada,Night,Weekday,17.63
+2023-01-09,BrandA,Canada,Late Night,Weekday,17.57
+2023-01-09,BrandB,USA,Early Morning,Weekday,12.03
+2023-01-09,BrandB,USA,Morning,Weekday,11.22
+2023-01-09,BrandB,USA,Mid-Day,Weekday,9.1
+2023-01-09,BrandB,USA,Afternoon,Weekday,5.85
+2023-01-09,BrandB,USA,Evening,Weekday,17.97
+2023-01-09,BrandB,USA,Night,Weekday,17.19
+2023-01-09,BrandB,USA,Late Night,Weekday,20.0
+2023-01-09,BrandB,UK,Early Morning,Weekday,19.95
+2023-01-09,BrandB,UK,Morning,Weekday,13.33
+2023-01-09,BrandB,UK,Mid-Day,Weekday,16.53
+2023-01-09,BrandB,UK,Afternoon,Weekday,19.17
+2023-01-09,BrandB,UK,Evening,Weekday,17.74
+2023-01-09,BrandB,UK,Night,Weekday,8.71
+2023-01-09,BrandB,UK,Late Night,Weekday,11.76
+2023-01-09,BrandB,Canada,Early Morning,Weekday,6.94
+2023-01-09,BrandB,Canada,Morning,Weekday,19.31
+2023-01-09,BrandB,Canada,Mid-Day,Weekday,14.09
+2023-01-09,BrandB,Canada,Afternoon,Weekday,8.43
+2023-01-09,BrandB,Canada,Evening,Weekday,15.08
+2023-01-09,BrandB,Canada,Night,Weekday,14.27
+2023-01-09,BrandB,Canada,Late Night,Weekday,10.37
+2023-01-09,BrandC,USA,Early Morning,Weekday,6.7
+2023-01-09,BrandC,USA,Morning,Weekday,15.07
+2023-01-09,BrandC,USA,Mid-Day,Weekday,12.8
+2023-01-09,BrandC,USA,Afternoon,Weekday,16.58
+2023-01-09,BrandC,USA,Evening,Weekday,12.8
+2023-01-09,BrandC,USA,Night,Weekday,17.78
+2023-01-09,BrandC,USA,Late Night,Weekday,13.28
+2023-01-09,BrandC,UK,Early Morning,Weekday,13.41
+2023-01-09,BrandC,UK,Morning,Weekday,18.15
+2023-01-09,BrandC,UK,Mid-Day,Weekday,11.05
+2023-01-09,BrandC,UK,Afternoon,Weekday,7.01
+2023-01-09,BrandC,UK,Evening,Weekday,5.43
+2023-01-09,BrandC,UK,Night,Weekday,16.33
+2023-01-09,BrandC,UK,Late Night,Weekday,14.3
+2023-01-09,BrandC,Canada,Early Morning,Weekday,15.56
+2023-01-09,BrandC,Canada,Morning,Weekday,8.19
+2023-01-09,BrandC,Canada,Mid-Day,Weekday,7.05
+2023-01-09,BrandC,Canada,Afternoon,Weekday,5.22
+2023-01-09,BrandC,Canada,Evening,Weekday,10.26
+2023-01-09,BrandC,Canada,Night,Weekday,13.85
+2023-01-09,BrandC,Canada,Late Night,Weekday,10.88
+2023-01-10,BrandA,USA,Early Morning,Weekday,11.56
+2023-01-10,BrandA,USA,Morning,Weekday,18.56
+2023-01-10,BrandA,USA,Mid-Day,Weekday,10.22
+2023-01-10,BrandA,USA,Afternoon,Weekday,12.71
+2023-01-10,BrandA,USA,Evening,Weekday,16.75
+2023-01-10,BrandA,USA,Night,Weekday,10.95
+2023-01-10,BrandA,USA,Late Night,Weekday,14.33
+2023-01-10,BrandA,UK,Early Morning,Weekday,17.94
+2023-01-10,BrandA,UK,Morning,Weekday,19.24
+2023-01-10,BrandA,UK,Mid-Day,Weekday,7.21
+2023-01-10,BrandA,UK,Afternoon,Weekday,18.9
+2023-01-10,BrandA,UK,Evening,Weekday,12.38
+2023-01-10,BrandA,UK,Night,Weekday,8.87
+2023-01-10,BrandA,UK,Late Night,Weekday,11.89
+2023-01-10,BrandA,Canada,Early Morning,Weekday,19.7
+2023-01-10,BrandA,Canada,Morning,Weekday,12.39
+2023-01-10,BrandA,Canada,Mid-Day,Weekday,9.93
+2023-01-10,BrandA,Canada,Afternoon,Weekday,14.5
+2023-01-10,BrandA,Canada,Evening,Weekday,8.6
+2023-01-10,BrandA,Canada,Night,Weekday,6.14
+2023-01-10,BrandA,Canada,Late Night,Weekday,6.93
+2023-01-10,BrandB,USA,Early Morning,Weekday,6.92
+2023-01-10,BrandB,USA,Morning,Weekday,7.28
+2023-01-10,BrandB,USA,Mid-Day,Weekday,7.08
+2023-01-10,BrandB,USA,Afternoon,Weekday,14.61
+2023-01-10,BrandB,USA,Evening,Weekday,7.73
+2023-01-10,BrandB,USA,Night,Weekday,10.19
+2023-01-10,BrandB,USA,Late Night,Weekday,18.45
+2023-01-10,BrandB,UK,Early Morning,Weekday,12.11
+2023-01-10,BrandB,UK,Morning,Weekday,15.01
+2023-01-10,BrandB,UK,Mid-Day,Weekday,7.58
+2023-01-10,BrandB,UK,Afternoon,Weekday,7.88
+2023-01-10,BrandB,UK,Evening,Weekday,5.61
+2023-01-10,BrandB,UK,Night,Weekday,7.53
+2023-01-10,BrandB,UK,Late Night,Weekday,9.18
+2023-01-10,BrandB,Canada,Early Morning,Weekday,7.66
+2023-01-10,BrandB,Canada,Morning,Weekday,6.33
+2023-01-10,BrandB,Canada,Mid-Day,Weekday,6.81
+2023-01-10,BrandB,Canada,Afternoon,Weekday,11.91
+2023-01-10,BrandB,Canada,Evening,Weekday,8.1
+2023-01-10,BrandB,Canada,Night,Weekday,10.46
+2023-01-10,BrandB,Canada,Late Night,Weekday,12.55
+2023-01-10,BrandC,USA,Early Morning,Weekday,15.36
+2023-01-10,BrandC,USA,Morning,Weekday,5.59
+2023-01-10,BrandC,USA,Mid-Day,Weekday,16.99
+2023-01-10,BrandC,USA,Afternoon,Weekday,14.42
+2023-01-10,BrandC,USA,Evening,Weekday,6.23
+2023-01-10,BrandC,USA,Night,Weekday,18.1
+2023-01-10,BrandC,USA,Late Night,Weekday,18.81
+2023-01-10,BrandC,UK,Early Morning,Weekday,5.92
+2023-01-10,BrandC,UK,Morning,Weekday,9.15
+2023-01-10,BrandC,UK,Mid-Day,Weekday,17.09
+2023-01-10,BrandC,UK,Afternoon,Weekday,16.22
+2023-01-10,BrandC,UK,Evening,Weekday,7.77
+2023-01-10,BrandC,UK,Night,Weekday,8.14
+2023-01-10,BrandC,UK,Late Night,Weekday,10.56
+2023-01-10,BrandC,Canada,Early Morning,Weekday,12.27
+2023-01-10,BrandC,Canada,Morning,Weekday,14.27
+2023-01-10,BrandC,Canada,Mid-Day,Weekday,10.53
+2023-01-10,BrandC,Canada,Afternoon,Weekday,11.94
+2023-01-10,BrandC,Canada,Evening,Weekday,16.21
+2023-01-10,BrandC,Canada,Night,Weekday,5.55
+2023-01-10,BrandC,Canada,Late Night,Weekday,8.79
+2023-01-11,BrandA,USA,Early Morning,Weekday,15.7
+2023-01-11,BrandA,USA,Morning,Weekday,18.43
+2023-01-11,BrandA,USA,Mid-Day,Weekday,12.68
+2023-01-11,BrandA,USA,Afternoon,Weekday,12.98
+2023-01-11,BrandA,USA,Evening,Weekday,6.61
+2023-01-11,BrandA,USA,Night,Weekday,11.71
+2023-01-11,BrandA,USA,Late Night,Weekday,12.99
+2023-01-11,BrandA,UK,Early Morning,Weekday,8.64
+2023-01-11,BrandA,UK,Morning,Weekday,9.04
+2023-01-11,BrandA,UK,Mid-Day,Weekday,10.66
+2023-01-11,BrandA,UK,Afternoon,Weekday,5.3
+2023-01-11,BrandA,UK,Evening,Weekday,9.83
+2023-01-11,BrandA,UK,Night,Weekday,8.17
+2023-01-11,BrandA,UK,Late Night,Weekday,9.91
+2023-01-11,BrandA,Canada,Early Morning,Weekday,6.8
+2023-01-11,BrandA,Canada,Morning,Weekday,18.36
+2023-01-11,BrandA,Canada,Mid-Day,Weekday,13.9
+2023-01-11,BrandA,Canada,Afternoon,Weekday,15.19
+2023-01-11,BrandA,Canada,Evening,Weekday,16.84
+2023-01-11,BrandA,Canada,Night,Weekday,12.48
+2023-01-11,BrandA,Canada,Late Night,Weekday,6.3
+2023-01-11,BrandB,USA,Early Morning,Weekday,13.06
+2023-01-11,BrandB,USA,Morning,Weekday,13.8
+2023-01-11,BrandB,USA,Mid-Day,Weekday,16.18
+2023-01-11,BrandB,USA,Afternoon,Weekday,11.47
+2023-01-11,BrandB,USA,Evening,Weekday,6.91
+2023-01-11,BrandB,USA,Night,Weekday,9.26
+2023-01-11,BrandB,USA,Late Night,Weekday,10.45
+2023-01-11,BrandB,UK,Early Morning,Weekday,14.69
+2023-01-11,BrandB,UK,Morning,Weekday,13.56
+2023-01-11,BrandB,UK,Mid-Day,Weekday,10.34
+2023-01-11,BrandB,UK,Afternoon,Weekday,19.8
+2023-01-11,BrandB,UK,Evening,Weekday,14.09
+2023-01-11,BrandB,UK,Night,Weekday,8.56
+2023-01-11,BrandB,UK,Late Night,Weekday,6.53
+2023-01-11,BrandB,Canada,Early Morning,Weekday,7.29
+2023-01-11,BrandB,Canada,Morning,Weekday,8.69
+2023-01-11,BrandB,Canada,Mid-Day,Weekday,7.41
+2023-01-11,BrandB,Canada,Afternoon,Weekday,7.8
+2023-01-11,BrandB,Canada,Evening,Weekday,9.28
+2023-01-11,BrandB,Canada,Night,Weekday,7.6
+2023-01-11,BrandB,Canada,Late Night,Weekday,18.45
+2023-01-11,BrandC,USA,Early Morning,Weekday,6.2
+2023-01-11,BrandC,USA,Morning,Weekday,12.87
+2023-01-11,BrandC,USA,Mid-Day,Weekday,11.16
+2023-01-11,BrandC,USA,Afternoon,Weekday,19.74
+2023-01-11,BrandC,USA,Evening,Weekday,6.68
+2023-01-11,BrandC,USA,Night,Weekday,10.97
+2023-01-11,BrandC,USA,Late Night,Weekday,19.54
+2023-01-11,BrandC,UK,Early Morning,Weekday,17.98
+2023-01-11,BrandC,UK,Morning,Weekday,17.26
+2023-01-11,BrandC,UK,Mid-Day,Weekday,8.87
+2023-01-11,BrandC,UK,Afternoon,Weekday,7.56
+2023-01-11,BrandC,UK,Evening,Weekday,15.03
+2023-01-11,BrandC,UK,Night,Weekday,18.94
+2023-01-11,BrandC,UK,Late Night,Weekday,13.35
+2023-01-11,BrandC,Canada,Early Morning,Weekday,13.57
+2023-01-11,BrandC,Canada,Morning,Weekday,9.2
+2023-01-11,BrandC,Canada,Mid-Day,Weekday,16.54
+2023-01-11,BrandC,Canada,Afternoon,Weekday,7.81
+2023-01-11,BrandC,Canada,Evening,Weekday,9.86
+2023-01-11,BrandC,Canada,Night,Weekday,11.38
+2023-01-11,BrandC,Canada,Late Night,Weekday,12.61
+2023-01-12,BrandA,USA,Early Morning,Weekday,8.64
+2023-01-12,BrandA,USA,Morning,Weekday,6.72
+2023-01-12,BrandA,USA,Mid-Day,Weekday,14.16
+2023-01-12,BrandA,USA,Afternoon,Weekday,9.33
+2023-01-12,BrandA,USA,Evening,Weekday,13.72
+2023-01-12,BrandA,USA,Night,Weekday,7.32
+2023-01-12,BrandA,USA,Late Night,Weekday,12.22
+2023-01-12,BrandA,UK,Early Morning,Weekday,12.99
+2023-01-12,BrandA,UK,Morning,Weekday,5.78
+2023-01-12,BrandA,UK,Mid-Day,Weekday,10.05
+2023-01-12,BrandA,UK,Afternoon,Weekday,7.02
+2023-01-12,BrandA,UK,Evening,Weekday,5.95
+2023-01-12,BrandA,UK,Night,Weekday,19.85
+2023-01-12,BrandA,UK,Late Night,Weekday,9.84
+2023-01-12,BrandA,Canada,Early Morning,Weekday,17.15
+2023-01-12,BrandA,Canada,Morning,Weekday,8.82
+2023-01-12,BrandA,Canada,Mid-Day,Weekday,15.22
+2023-01-12,BrandA,Canada,Afternoon,Weekday,16.4
+2023-01-12,BrandA,Canada,Evening,Weekday,13.93
+2023-01-12,BrandA,Canada,Night,Weekday,12.07
+2023-01-12,BrandA,Canada,Late Night,Weekday,11.18
+2023-01-12,BrandB,USA,Early Morning,Weekday,10.23
+2023-01-12,BrandB,USA,Morning,Weekday,18.94
+2023-01-12,BrandB,USA,Mid-Day,Weekday,17.46
+2023-01-12,BrandB,USA,Afternoon,Weekday,19.48
+2023-01-12,BrandB,USA,Evening,Weekday,6.86
+2023-01-12,BrandB,USA,Night,Weekday,15.96
+2023-01-12,BrandB,USA,Late Night,Weekday,19.08
+2023-01-12,BrandB,UK,Early Morning,Weekday,7.72
+2023-01-12,BrandB,UK,Morning,Weekday,6.0
+2023-01-12,BrandB,UK,Mid-Day,Weekday,16.12
+2023-01-12,BrandB,UK,Afternoon,Weekday,13.62
+2023-01-12,BrandB,UK,Evening,Weekday,17.63
+2023-01-12,BrandB,UK,Night,Weekday,7.1
+2023-01-12,BrandB,UK,Late Night,Weekday,16.93
+2023-01-12,BrandB,Canada,Early Morning,Weekday,8.02
+2023-01-12,BrandB,Canada,Morning,Weekday,7.45
+2023-01-12,BrandB,Canada,Mid-Day,Weekday,7.46
+2023-01-12,BrandB,Canada,Afternoon,Weekday,17.22
+2023-01-12,BrandB,Canada,Evening,Weekday,14.98
+2023-01-12,BrandB,Canada,Night,Weekday,12.85
+2023-01-12,BrandB,Canada,Late Night,Weekday,10.38
+2023-01-12,BrandC,USA,Early Morning,Weekday,18.16
+2023-01-12,BrandC,USA,Morning,Weekday,10.89
+2023-01-12,BrandC,USA,Mid-Day,Weekday,17.25
+2023-01-12,BrandC,USA,Afternoon,Weekday,11.59
+2023-01-12,BrandC,USA,Evening,Weekday,10.65
+2023-01-12,BrandC,USA,Night,Weekday,11.94
+2023-01-12,BrandC,USA,Late Night,Weekday,9.52
+2023-01-12,BrandC,UK,Early Morning,Weekday,16.21
+2023-01-12,BrandC,UK,Morning,Weekday,12.54
+2023-01-12,BrandC,UK,Mid-Day,Weekday,8.48
+2023-01-12,BrandC,UK,Afternoon,Weekday,18.49
+2023-01-12,BrandC,UK,Evening,Weekday,10.76
+2023-01-12,BrandC,UK,Night,Weekday,13.15
+2023-01-12,BrandC,UK,Late Night,Weekday,18.6
+2023-01-12,BrandC,Canada,Early Morning,Weekday,14.36
+2023-01-12,BrandC,Canada,Morning,Weekday,6.75
+2023-01-12,BrandC,Canada,Mid-Day,Weekday,19.1
+2023-01-12,BrandC,Canada,Afternoon,Weekday,14.42
+2023-01-12,BrandC,Canada,Evening,Weekday,10.02
+2023-01-12,BrandC,Canada,Night,Weekday,7.09
+2023-01-12,BrandC,Canada,Late Night,Weekday,16.91
+2023-01-13,BrandA,USA,Early Morning,Weekday,14.3
+2023-01-13,BrandA,USA,Morning,Weekday,13.0
+2023-01-13,BrandA,USA,Mid-Day,Weekday,18.41
+2023-01-13,BrandA,USA,Afternoon,Weekday,16.83
+2023-01-13,BrandA,USA,Evening,Weekday,7.28
+2023-01-13,BrandA,USA,Night,Weekday,9.68
+2023-01-13,BrandA,USA,Late Night,Weekday,8.73
+2023-01-13,BrandA,UK,Early Morning,Weekday,16.16
+2023-01-13,BrandA,UK,Morning,Weekday,5.5
+2023-01-13,BrandA,UK,Mid-Day,Weekday,13.55
+2023-01-13,BrandA,UK,Afternoon,Weekday,16.44
+2023-01-13,BrandA,UK,Evening,Weekday,18.15
+2023-01-13,BrandA,UK,Night,Weekday,10.13
+2023-01-13,BrandA,UK,Late Night,Weekday,17.32
+2023-01-13,BrandA,Canada,Early Morning,Weekday,6.66
+2023-01-13,BrandA,Canada,Morning,Weekday,17.7
+2023-01-13,BrandA,Canada,Mid-Day,Weekday,6.91
+2023-01-13,BrandA,Canada,Afternoon,Weekday,10.96
+2023-01-13,BrandA,Canada,Evening,Weekday,16.96
+2023-01-13,BrandA,Canada,Night,Weekday,7.25
+2023-01-13,BrandA,Canada,Late Night,Weekday,8.44
+2023-01-13,BrandB,USA,Early Morning,Weekday,15.83
+2023-01-13,BrandB,USA,Morning,Weekday,15.8
+2023-01-13,BrandB,USA,Mid-Day,Weekday,14.62
+2023-01-13,BrandB,USA,Afternoon,Weekday,15.41
+2023-01-13,BrandB,USA,Evening,Weekday,13.14
+2023-01-13,BrandB,USA,Night,Weekday,8.78
+2023-01-13,BrandB,USA,Late Night,Weekday,10.19
+2023-01-13,BrandB,UK,Early Morning,Weekday,7.72
+2023-01-13,BrandB,UK,Morning,Weekday,18.63
+2023-01-13,BrandB,UK,Mid-Day,Weekday,13.75
+2023-01-13,BrandB,UK,Afternoon,Weekday,11.01
+2023-01-13,BrandB,UK,Evening,Weekday,11.93
+2023-01-13,BrandB,UK,Night,Weekday,19.21
+2023-01-13,BrandB,UK,Late Night,Weekday,7.3
+2023-01-13,BrandB,Canada,Early Morning,Weekday,13.79
+2023-01-13,BrandB,Canada,Morning,Weekday,12.59
+2023-01-13,BrandB,Canada,Mid-Day,Weekday,14.17
+2023-01-13,BrandB,Canada,Afternoon,Weekday,5.27
+2023-01-13,BrandB,Canada,Evening,Weekday,18.08
+2023-01-13,BrandB,Canada,Night,Weekday,18.98
+2023-01-13,BrandB,Canada,Late Night,Weekday,13.48
+2023-01-13,BrandC,USA,Early Morning,Weekday,15.45
+2023-01-13,BrandC,USA,Morning,Weekday,18.84
+2023-01-13,BrandC,USA,Mid-Day,Weekday,15.61
+2023-01-13,BrandC,USA,Afternoon,Weekday,7.29
+2023-01-13,BrandC,USA,Evening,Weekday,13.64
+2023-01-13,BrandC,USA,Night,Weekday,14.1
+2023-01-13,BrandC,USA,Late Night,Weekday,11.36
+2023-01-13,BrandC,UK,Early Morning,Weekday,16.05
+2023-01-13,BrandC,UK,Morning,Weekday,19.02
+2023-01-13,BrandC,UK,Mid-Day,Weekday,18.88
+2023-01-13,BrandC,UK,Afternoon,Weekday,11.76
+2023-01-13,BrandC,UK,Evening,Weekday,6.7
+2023-01-13,BrandC,UK,Night,Weekday,19.77
+2023-01-13,BrandC,UK,Late Night,Weekday,17.58
+2023-01-13,BrandC,Canada,Early Morning,Weekday,6.87
+2023-01-13,BrandC,Canada,Morning,Weekday,18.81
+2023-01-13,BrandC,Canada,Mid-Day,Weekday,18.05
+2023-01-13,BrandC,Canada,Afternoon,Weekday,12.78
+2023-01-13,BrandC,Canada,Evening,Weekday,13.87
+2023-01-13,BrandC,Canada,Night,Weekday,10.99
+2023-01-13,BrandC,Canada,Late Night,Weekday,5.82
+2023-01-14,BrandA,USA,Early Morning,Weekend,10.03
+2023-01-14,BrandA,USA,Morning,Weekend,17.04
+2023-01-14,BrandA,USA,Mid-Day,Weekend,5.07
+2023-01-14,BrandA,USA,Afternoon,Weekend,10.0
+2023-01-14,BrandA,USA,Evening,Weekend,10.97
+2023-01-14,BrandA,USA,Night,Weekend,13.06
+2023-01-14,BrandA,USA,Late Night,Weekend,18.8
+2023-01-14,BrandA,UK,Early Morning,Weekend,10.2
+2023-01-14,BrandA,UK,Morning,Weekend,10.2
+2023-01-14,BrandA,UK,Mid-Day,Weekend,16.06
+2023-01-14,BrandA,UK,Afternoon,Weekend,11.78
+2023-01-14,BrandA,UK,Evening,Weekend,8.37
+2023-01-14,BrandA,UK,Night,Weekend,11.79
+2023-01-14,BrandA,UK,Late Night,Weekend,7.11
+2023-01-14,BrandA,Canada,Early Morning,Weekend,7.65
+2023-01-14,BrandA,Canada,Morning,Weekend,12.48
+2023-01-14,BrandA,Canada,Mid-Day,Weekend,11.28
+2023-01-14,BrandA,Canada,Afternoon,Weekend,18.72
+2023-01-14,BrandA,Canada,Evening,Weekend,10.44
+2023-01-14,BrandA,Canada,Night,Weekend,13.71
+2023-01-14,BrandA,Canada,Late Night,Weekend,14.48
+2023-01-14,BrandB,USA,Early Morning,Weekend,5.2
+2023-01-14,BrandB,USA,Morning,Weekend,14.95
+2023-01-14,BrandB,USA,Mid-Day,Weekend,7.67
+2023-01-14,BrandB,USA,Afternoon,Weekend,19.42
+2023-01-14,BrandB,USA,Evening,Weekend,7.23
+2023-01-14,BrandB,USA,Night,Weekend,11.22
+2023-01-14,BrandB,USA,Late Night,Weekend,6.28
+2023-01-14,BrandB,UK,Early Morning,Weekend,19.95
+2023-01-14,BrandB,UK,Morning,Weekend,12.53
+2023-01-14,BrandB,UK,Mid-Day,Weekend,13.93
+2023-01-14,BrandB,UK,Afternoon,Weekend,6.01
+2023-01-14,BrandB,UK,Evening,Weekend,16.25
+2023-01-14,BrandB,UK,Night,Weekend,8.15
+2023-01-14,BrandB,UK,Late Night,Weekend,18.47
+2023-01-14,BrandB,Canada,Early Morning,Weekend,8.08
+2023-01-14,BrandB,Canada,Morning,Weekend,7.86
+2023-01-14,BrandB,Canada,Mid-Day,Weekend,5.55
+2023-01-14,BrandB,Canada,Afternoon,Weekend,12.08
+2023-01-14,BrandB,Canada,Evening,Weekend,13.47
+2023-01-14,BrandB,Canada,Night,Weekend,5.99
+2023-01-14,BrandB,Canada,Late Night,Weekend,16.63
+2023-01-14,BrandC,USA,Early Morning,Weekend,11.8
+2023-01-14,BrandC,USA,Morning,Weekend,12.87
+2023-01-14,BrandC,USA,Mid-Day,Weekend,11.61
+2023-01-14,BrandC,USA,Afternoon,Weekend,11.01
+2023-01-14,BrandC,USA,Evening,Weekend,13.39
+2023-01-14,BrandC,USA,Night,Weekend,7.33
+2023-01-14,BrandC,USA,Late Night,Weekend,7.73
+2023-01-14,BrandC,UK,Early Morning,Weekend,17.93
+2023-01-14,BrandC,UK,Morning,Weekend,19.19
+2023-01-14,BrandC,UK,Mid-Day,Weekend,10.6
+2023-01-14,BrandC,UK,Afternoon,Weekend,9.06
+2023-01-14,BrandC,UK,Evening,Weekend,14.66
+2023-01-14,BrandC,UK,Night,Weekend,11.13
+2023-01-14,BrandC,UK,Late Night,Weekend,5.38
+2023-01-14,BrandC,Canada,Early Morning,Weekend,7.34
+2023-01-14,BrandC,Canada,Morning,Weekend,15.74
+2023-01-14,BrandC,Canada,Mid-Day,Weekend,14.88
+2023-01-14,BrandC,Canada,Afternoon,Weekend,5.41
+2023-01-14,BrandC,Canada,Evening,Weekend,8.33
+2023-01-14,BrandC,Canada,Night,Weekend,8.47
+2023-01-14,BrandC,Canada,Late Night,Weekend,15.08
+2023-01-15,BrandA,USA,Early Morning,Weekend,5.3
+2023-01-15,BrandA,USA,Morning,Weekend,6.56
+2023-01-15,BrandA,USA,Mid-Day,Weekend,17.0
+2023-01-15,BrandA,USA,Afternoon,Weekend,7.68
+2023-01-15,BrandA,USA,Evening,Weekend,14.79
+2023-01-15,BrandA,USA,Night,Weekend,8.57
+2023-01-15,BrandA,USA,Late Night,Weekend,6.49
+2023-01-15,BrandA,UK,Early Morning,Weekend,8.65
+2023-01-15,BrandA,UK,Morning,Weekend,15.83
+2023-01-15,BrandA,UK,Mid-Day,Weekend,17.84
+2023-01-15,BrandA,UK,Afternoon,Weekend,17.45
+2023-01-15,BrandA,UK,Evening,Weekend,10.96
+2023-01-15,BrandA,UK,Night,Weekend,15.02
+2023-01-15,BrandA,UK,Late Night,Weekend,8.07
+2023-01-15,BrandA,Canada,Early Morning,Weekend,9.4
+2023-01-15,BrandA,Canada,Morning,Weekend,18.45
+2023-01-15,BrandA,Canada,Mid-Day,Weekend,5.2
+2023-01-15,BrandA,Canada,Afternoon,Weekend,6.28
+2023-01-15,BrandA,Canada,Evening,Weekend,8.12
+2023-01-15,BrandA,Canada,Night,Weekend,5.4
+2023-01-15,BrandA,Canada,Late Night,Weekend,7.72
+2023-01-15,BrandB,USA,Early Morning,Weekend,13.75
+2023-01-15,BrandB,USA,Morning,Weekend,11.32
+2023-01-15,BrandB,USA,Mid-Day,Weekend,18.39
+2023-01-15,BrandB,USA,Afternoon,Weekend,17.26
+2023-01-15,BrandB,USA,Evening,Weekend,10.13
+2023-01-15,BrandB,USA,Night,Weekend,8.89
+2023-01-15,BrandB,USA,Late Night,Weekend,10.7
+2023-01-15,BrandB,UK,Early Morning,Weekend,13.85
+2023-01-15,BrandB,UK,Morning,Weekend,9.02
+2023-01-15,BrandB,UK,Mid-Day,Weekend,14.36
+2023-01-15,BrandB,UK,Afternoon,Weekend,11.14
+2023-01-15,BrandB,UK,Evening,Weekend,13.28
+2023-01-15,BrandB,UK,Night,Weekend,11.54
+2023-01-15,BrandB,UK,Late Night,Weekend,9.42
+2023-01-15,BrandB,Canada,Early Morning,Weekend,19.23
+2023-01-15,BrandB,Canada,Morning,Weekend,16.45
+2023-01-15,BrandB,Canada,Mid-Day,Weekend,7.1
+2023-01-15,BrandB,Canada,Afternoon,Weekend,18.03
+2023-01-15,BrandB,Canada,Evening,Weekend,12.31
+2023-01-15,BrandB,Canada,Night,Weekend,18.42
+2023-01-15,BrandB,Canada,Late Night,Weekend,17.0
+2023-01-15,BrandC,USA,Early Morning,Weekend,11.38
+2023-01-15,BrandC,USA,Morning,Weekend,5.34
+2023-01-15,BrandC,USA,Mid-Day,Weekend,9.03
+2023-01-15,BrandC,USA,Afternoon,Weekend,13.12
+2023-01-15,BrandC,USA,Evening,Weekend,14.5
+2023-01-15,BrandC,USA,Night,Weekend,8.87
+2023-01-15,BrandC,USA,Late Night,Weekend,7.09
+2023-01-15,BrandC,UK,Early Morning,Weekend,17.52
+2023-01-15,BrandC,UK,Morning,Weekend,19.77
+2023-01-15,BrandC,UK,Mid-Day,Weekend,12.89
+2023-01-15,BrandC,UK,Afternoon,Weekend,7.58
+2023-01-15,BrandC,UK,Evening,Weekend,9.08
+2023-01-15,BrandC,UK,Night,Weekend,5.28
+2023-01-15,BrandC,UK,Late Night,Weekend,18.71
+2023-01-15,BrandC,Canada,Early Morning,Weekend,6.77
+2023-01-15,BrandC,Canada,Morning,Weekend,13.65
+2023-01-15,BrandC,Canada,Mid-Day,Weekend,9.11
+2023-01-15,BrandC,Canada,Afternoon,Weekend,13.31
+2023-01-15,BrandC,Canada,Evening,Weekend,14.77
+2023-01-15,BrandC,Canada,Night,Weekend,17.45
+2023-01-15,BrandC,Canada,Late Night,Weekend,8.1
+2023-01-16,BrandA,USA,Early Morning,Weekday,5.16
+2023-01-16,BrandA,USA,Morning,Weekday,7.05
+2023-01-16,BrandA,USA,Mid-Day,Weekday,18.5
+2023-01-16,BrandA,USA,Afternoon,Weekday,18.11
+2023-01-16,BrandA,USA,Evening,Weekday,13.96
+2023-01-16,BrandA,USA,Night,Weekday,14.01
+2023-01-16,BrandA,USA,Late Night,Weekday,14.98
+2023-01-16,BrandA,UK,Early Morning,Weekday,7.63
+2023-01-16,BrandA,UK,Morning,Weekday,18.72
+2023-01-16,BrandA,UK,Mid-Day,Weekday,11.28
+2023-01-16,BrandA,UK,Afternoon,Weekday,10.75
+2023-01-16,BrandA,UK,Evening,Weekday,12.78
+2023-01-16,BrandA,UK,Night,Weekday,5.7
+2023-01-16,BrandA,UK,Late Night,Weekday,7.49
+2023-01-16,BrandA,Canada,Early Morning,Weekday,16.07
+2023-01-16,BrandA,Canada,Morning,Weekday,6.24
+2023-01-16,BrandA,Canada,Mid-Day,Weekday,14.05
+2023-01-16,BrandA,Canada,Afternoon,Weekday,8.68
+2023-01-16,BrandA,Canada,Evening,Weekday,10.84
+2023-01-16,BrandA,Canada,Night,Weekday,9.33
+2023-01-16,BrandA,Canada,Late Night,Weekday,10.34
+2023-01-16,BrandB,USA,Early Morning,Weekday,15.79
+2023-01-16,BrandB,USA,Morning,Weekday,9.46
+2023-01-16,BrandB,USA,Mid-Day,Weekday,13.5
+2023-01-16,BrandB,USA,Afternoon,Weekday,12.14
+2023-01-16,BrandB,USA,Evening,Weekday,14.96
+2023-01-16,BrandB,USA,Night,Weekday,19.05
+2023-01-16,BrandB,USA,Late Night,Weekday,15.99
+2023-01-16,BrandB,UK,Early Morning,Weekday,8.22
+2023-01-16,BrandB,UK,Morning,Weekday,5.47
+2023-01-16,BrandB,UK,Mid-Day,Weekday,8.93
+2023-01-16,BrandB,UK,Afternoon,Weekday,13.93
+2023-01-16,BrandB,UK,Evening,Weekday,5.77
+2023-01-16,BrandB,UK,Night,Weekday,12.45
+2023-01-16,BrandB,UK,Late Night,Weekday,13.95
+2023-01-16,BrandB,Canada,Early Morning,Weekday,10.01
+2023-01-16,BrandB,Canada,Morning,Weekday,16.56
+2023-01-16,BrandB,Canada,Mid-Day,Weekday,6.6
+2023-01-16,BrandB,Canada,Afternoon,Weekday,6.13
+2023-01-16,BrandB,Canada,Evening,Weekday,15.92
+2023-01-16,BrandB,Canada,Night,Weekday,12.43
+2023-01-16,BrandB,Canada,Late Night,Weekday,15.33
+2023-01-16,BrandC,USA,Early Morning,Weekday,11.52
+2023-01-16,BrandC,USA,Morning,Weekday,8.7
+2023-01-16,BrandC,USA,Mid-Day,Weekday,17.29
+2023-01-16,BrandC,USA,Afternoon,Weekday,16.99
+2023-01-16,BrandC,USA,Evening,Weekday,15.42
+2023-01-16,BrandC,USA,Night,Weekday,9.08
+2023-01-16,BrandC,USA,Late Night,Weekday,13.85
+2023-01-16,BrandC,UK,Early Morning,Weekday,10.41
+2023-01-16,BrandC,UK,Morning,Weekday,6.37
+2023-01-16,BrandC,UK,Mid-Day,Weekday,18.76
+2023-01-16,BrandC,UK,Afternoon,Weekday,7.05
+2023-01-16,BrandC,UK,Evening,Weekday,19.25
+2023-01-16,BrandC,UK,Night,Weekday,11.69
+2023-01-16,BrandC,UK,Late Night,Weekday,7.78
+2023-01-16,BrandC,Canada,Early Morning,Weekday,13.13
+2023-01-16,BrandC,Canada,Morning,Weekday,18.09
+2023-01-16,BrandC,Canada,Mid-Day,Weekday,15.98
+2023-01-16,BrandC,Canada,Afternoon,Weekday,17.1
+2023-01-16,BrandC,Canada,Evening,Weekday,14.88
+2023-01-16,BrandC,Canada,Night,Weekday,15.38
+2023-01-16,BrandC,Canada,Late Night,Weekday,17.74
+2023-01-17,BrandA,USA,Early Morning,Weekday,8.75
+2023-01-17,BrandA,USA,Morning,Weekday,12.34
+2023-01-17,BrandA,USA,Mid-Day,Weekday,8.32
+2023-01-17,BrandA,USA,Afternoon,Weekday,19.82
+2023-01-17,BrandA,USA,Evening,Weekday,19.16
+2023-01-17,BrandA,USA,Night,Weekday,5.59
+2023-01-17,BrandA,USA,Late Night,Weekday,15.58
+2023-01-17,BrandA,UK,Early Morning,Weekday,18.88
+2023-01-17,BrandA,UK,Morning,Weekday,7.71
+2023-01-17,BrandA,UK,Mid-Day,Weekday,13.52
+2023-01-17,BrandA,UK,Afternoon,Weekday,18.73
+2023-01-17,BrandA,UK,Evening,Weekday,5.51
+2023-01-17,BrandA,UK,Night,Weekday,15.46
+2023-01-17,BrandA,UK,Late Night,Weekday,9.46
+2023-01-17,BrandA,Canada,Early Morning,Weekday,18.87
+2023-01-17,BrandA,Canada,Morning,Weekday,19.57
+2023-01-17,BrandA,Canada,Mid-Day,Weekday,19.16
+2023-01-17,BrandA,Canada,Afternoon,Weekday,12.11
+2023-01-17,BrandA,Canada,Evening,Weekday,17.93
+2023-01-17,BrandA,Canada,Night,Weekday,17.67
+2023-01-17,BrandA,Canada,Late Night,Weekday,9.79
+2023-01-17,BrandB,USA,Early Morning,Weekday,17.43
+2023-01-17,BrandB,USA,Morning,Weekday,5.56
+2023-01-17,BrandB,USA,Mid-Day,Weekday,13.94
+2023-01-17,BrandB,USA,Afternoon,Weekday,8.45
+2023-01-17,BrandB,USA,Evening,Weekday,6.81
+2023-01-17,BrandB,USA,Night,Weekday,6.15
+2023-01-17,BrandB,USA,Late Night,Weekday,15.44
+2023-01-17,BrandB,UK,Early Morning,Weekday,10.1
+2023-01-17,BrandB,UK,Morning,Weekday,15.87
+2023-01-17,BrandB,UK,Mid-Day,Weekday,5.98
+2023-01-17,BrandB,UK,Afternoon,Weekday,9.73
+2023-01-17,BrandB,UK,Evening,Weekday,13.09
+2023-01-17,BrandB,UK,Night,Weekday,16.86
+2023-01-17,BrandB,UK,Late Night,Weekday,9.78
+2023-01-17,BrandB,Canada,Early Morning,Weekday,14.39
+2023-01-17,BrandB,Canada,Morning,Weekday,18.29
+2023-01-17,BrandB,Canada,Mid-Day,Weekday,14.24
+2023-01-17,BrandB,Canada,Afternoon,Weekday,8.49
+2023-01-17,BrandB,Canada,Evening,Weekday,5.37
+2023-01-17,BrandB,Canada,Night,Weekday,18.05
+2023-01-17,BrandB,Canada,Late Night,Weekday,5.32
+2023-01-17,BrandC,USA,Early Morning,Weekday,18.12
+2023-01-17,BrandC,USA,Morning,Weekday,12.93
+2023-01-17,BrandC,USA,Mid-Day,Weekday,19.09
+2023-01-17,BrandC,USA,Afternoon,Weekday,16.98
+2023-01-17,BrandC,USA,Evening,Weekday,19.97
+2023-01-17,BrandC,USA,Night,Weekday,10.26
+2023-01-17,BrandC,USA,Late Night,Weekday,16.51
+2023-01-17,BrandC,UK,Early Morning,Weekday,11.03
+2023-01-17,BrandC,UK,Morning,Weekday,12.2
+2023-01-17,BrandC,UK,Mid-Day,Weekday,14.41
+2023-01-17,BrandC,UK,Afternoon,Weekday,18.11
+2023-01-17,BrandC,UK,Evening,Weekday,19.76
+2023-01-17,BrandC,UK,Night,Weekday,16.52
+2023-01-17,BrandC,UK,Late Night,Weekday,11.27
+2023-01-17,BrandC,Canada,Early Morning,Weekday,11.32
+2023-01-17,BrandC,Canada,Morning,Weekday,16.06
+2023-01-17,BrandC,Canada,Mid-Day,Weekday,8.58
+2023-01-17,BrandC,Canada,Afternoon,Weekday,6.66
+2023-01-17,BrandC,Canada,Evening,Weekday,10.32
+2023-01-17,BrandC,Canada,Night,Weekday,9.31
+2023-01-17,BrandC,Canada,Late Night,Weekday,9.44
+2023-01-18,BrandA,USA,Early Morning,Weekday,8.5
+2023-01-18,BrandA,USA,Morning,Weekday,5.63
+2023-01-18,BrandA,USA,Mid-Day,Weekday,5.27
+2023-01-18,BrandA,USA,Afternoon,Weekday,19.82
+2023-01-18,BrandA,USA,Evening,Weekday,11.42
+2023-01-18,BrandA,USA,Night,Weekday,10.76
+2023-01-18,BrandA,USA,Late Night,Weekday,15.19
+2023-01-18,BrandA,UK,Early Morning,Weekday,8.27
+2023-01-18,BrandA,UK,Morning,Weekday,19.25
+2023-01-18,BrandA,UK,Mid-Day,Weekday,16.8
+2023-01-18,BrandA,UK,Afternoon,Weekday,6.34
+2023-01-18,BrandA,UK,Evening,Weekday,11.26
+2023-01-18,BrandA,UK,Night,Weekday,18.19
+2023-01-18,BrandA,UK,Late Night,Weekday,19.17
+2023-01-18,BrandA,Canada,Early Morning,Weekday,12.01
+2023-01-18,BrandA,Canada,Morning,Weekday,14.2
+2023-01-18,BrandA,Canada,Mid-Day,Weekday,7.51
+2023-01-18,BrandA,Canada,Afternoon,Weekday,19.87
+2023-01-18,BrandA,Canada,Evening,Weekday,8.48
+2023-01-18,BrandA,Canada,Night,Weekday,19.14
+2023-01-18,BrandA,Canada,Late Night,Weekday,14.74
+2023-01-18,BrandB,USA,Early Morning,Weekday,14.12
+2023-01-18,BrandB,USA,Morning,Weekday,12.69
+2023-01-18,BrandB,USA,Mid-Day,Weekday,8.46
+2023-01-18,BrandB,USA,Afternoon,Weekday,7.65
+2023-01-18,BrandB,USA,Evening,Weekday,8.31
+2023-01-18,BrandB,USA,Night,Weekday,7.8
+2023-01-18,BrandB,USA,Late Night,Weekday,16.69
+2023-01-18,BrandB,UK,Early Morning,Weekday,10.25
+2023-01-18,BrandB,UK,Morning,Weekday,5.87
+2023-01-18,BrandB,UK,Mid-Day,Weekday,19.54
+2023-01-18,BrandB,UK,Afternoon,Weekday,18.26
+2023-01-18,BrandB,UK,Evening,Weekday,18.92
+2023-01-18,BrandB,UK,Night,Weekday,19.92
+2023-01-18,BrandB,UK,Late Night,Weekday,7.61
+2023-01-18,BrandB,Canada,Early Morning,Weekday,10.94
+2023-01-18,BrandB,Canada,Morning,Weekday,16.37
+2023-01-18,BrandB,Canada,Mid-Day,Weekday,15.44
+2023-01-18,BrandB,Canada,Afternoon,Weekday,7.31
+2023-01-18,BrandB,Canada,Evening,Weekday,17.24
+2023-01-18,BrandB,Canada,Night,Weekday,8.37
+2023-01-18,BrandB,Canada,Late Night,Weekday,8.36
+2023-01-18,BrandC,USA,Early Morning,Weekday,13.05
+2023-01-18,BrandC,USA,Morning,Weekday,13.89
+2023-01-18,BrandC,USA,Mid-Day,Weekday,13.7
+2023-01-18,BrandC,USA,Afternoon,Weekday,6.37
+2023-01-18,BrandC,USA,Evening,Weekday,18.16
+2023-01-18,BrandC,USA,Night,Weekday,8.98
+2023-01-18,BrandC,USA,Late Night,Weekday,6.94
+2023-01-18,BrandC,UK,Early Morning,Weekday,18.33
+2023-01-18,BrandC,UK,Morning,Weekday,19.33
+2023-01-18,BrandC,UK,Mid-Day,Weekday,17.93
+2023-01-18,BrandC,UK,Afternoon,Weekday,17.14
+2023-01-18,BrandC,UK,Evening,Weekday,14.83
+2023-01-18,BrandC,UK,Night,Weekday,13.26
+2023-01-18,BrandC,UK,Late Night,Weekday,6.3
+2023-01-18,BrandC,Canada,Early Morning,Weekday,11.13
+2023-01-18,BrandC,Canada,Morning,Weekday,10.59
+2023-01-18,BrandC,Canada,Mid-Day,Weekday,8.9
+2023-01-18,BrandC,Canada,Afternoon,Weekday,15.85
+2023-01-18,BrandC,Canada,Evening,Weekday,12.44
+2023-01-18,BrandC,Canada,Night,Weekday,6.22
+2023-01-18,BrandC,Canada,Late Night,Weekday,8.3
+2023-01-19,BrandA,USA,Early Morning,Weekday,15.25
+2023-01-19,BrandA,USA,Morning,Weekday,6.14
+2023-01-19,BrandA,USA,Mid-Day,Weekday,17.77
+2023-01-19,BrandA,USA,Afternoon,Weekday,12.43
+2023-01-19,BrandA,USA,Evening,Weekday,12.21
+2023-01-19,BrandA,USA,Night,Weekday,13.89
+2023-01-19,BrandA,USA,Late Night,Weekday,17.37
+2023-01-19,BrandA,UK,Early Morning,Weekday,10.22
+2023-01-19,BrandA,UK,Morning,Weekday,15.17
+2023-01-19,BrandA,UK,Mid-Day,Weekday,13.49
+2023-01-19,BrandA,UK,Afternoon,Weekday,9.01
+2023-01-19,BrandA,UK,Evening,Weekday,18.18
+2023-01-19,BrandA,UK,Night,Weekday,16.96
+2023-01-19,BrandA,UK,Late Night,Weekday,14.88
+2023-01-19,BrandA,Canada,Early Morning,Weekday,17.76
+2023-01-19,BrandA,Canada,Morning,Weekday,18.01
+2023-01-19,BrandA,Canada,Mid-Day,Weekday,15.63
+2023-01-19,BrandA,Canada,Afternoon,Weekday,17.56
+2023-01-19,BrandA,Canada,Evening,Weekday,15.46
+2023-01-19,BrandA,Canada,Night,Weekday,15.2
+2023-01-19,BrandA,Canada,Late Night,Weekday,14.28
+2023-01-19,BrandB,USA,Early Morning,Weekday,16.29
+2023-01-19,BrandB,USA,Morning,Weekday,7.38
+2023-01-19,BrandB,USA,Mid-Day,Weekday,18.21
+2023-01-19,BrandB,USA,Afternoon,Weekday,18.08
+2023-01-19,BrandB,USA,Evening,Weekday,5.44
+2023-01-19,BrandB,USA,Night,Weekday,17.39
+2023-01-19,BrandB,USA,Late Night,Weekday,6.93
+2023-01-19,BrandB,UK,Early Morning,Weekday,10.03
+2023-01-19,BrandB,UK,Morning,Weekday,16.15
+2023-01-19,BrandB,UK,Mid-Day,Weekday,7.41
+2023-01-19,BrandB,UK,Afternoon,Weekday,17.27
+2023-01-19,BrandB,UK,Evening,Weekday,17.48
+2023-01-19,BrandB,UK,Night,Weekday,12.61
+2023-01-19,BrandB,UK,Late Night,Weekday,5.1
+2023-01-19,BrandB,Canada,Early Morning,Weekday,9.31
+2023-01-19,BrandB,Canada,Morning,Weekday,14.25
+2023-01-19,BrandB,Canada,Mid-Day,Weekday,19.72
+2023-01-19,BrandB,Canada,Afternoon,Weekday,14.48
+2023-01-19,BrandB,Canada,Evening,Weekday,8.9
+2023-01-19,BrandB,Canada,Night,Weekday,14.51
+2023-01-19,BrandB,Canada,Late Night,Weekday,13.1
+2023-01-19,BrandC,USA,Early Morning,Weekday,16.7
+2023-01-19,BrandC,USA,Morning,Weekday,6.6
+2023-01-19,BrandC,USA,Mid-Day,Weekday,16.42
+2023-01-19,BrandC,USA,Afternoon,Weekday,13.12
+2023-01-19,BrandC,USA,Evening,Weekday,19.44
+2023-01-19,BrandC,USA,Night,Weekday,10.13
+2023-01-19,BrandC,USA,Late Night,Weekday,14.49
+2023-01-19,BrandC,UK,Early Morning,Weekday,18.98
+2023-01-19,BrandC,UK,Morning,Weekday,6.54
+2023-01-19,BrandC,UK,Mid-Day,Weekday,19.06
+2023-01-19,BrandC,UK,Afternoon,Weekday,15.32
+2023-01-19,BrandC,UK,Evening,Weekday,6.02
+2023-01-19,BrandC,UK,Night,Weekday,9.51
+2023-01-19,BrandC,UK,Late Night,Weekday,15.62
+2023-01-19,BrandC,Canada,Early Morning,Weekday,6.01
+2023-01-19,BrandC,Canada,Morning,Weekday,13.73
+2023-01-19,BrandC,Canada,Mid-Day,Weekday,10.19
+2023-01-19,BrandC,Canada,Afternoon,Weekday,14.31
+2023-01-19,BrandC,Canada,Evening,Weekday,5.69
+2023-01-19,BrandC,Canada,Night,Weekday,18.07
+2023-01-19,BrandC,Canada,Late Night,Weekday,19.6
+2023-01-20,BrandA,USA,Early Morning,Weekday,19.53
+2023-01-20,BrandA,USA,Morning,Weekday,16.24
+2023-01-20,BrandA,USA,Mid-Day,Weekday,6.95
+2023-01-20,BrandA,USA,Afternoon,Weekday,16.37
+2023-01-20,BrandA,USA,Evening,Weekday,5.37
+2023-01-20,BrandA,USA,Night,Weekday,5.33
+2023-01-20,BrandA,USA,Late Night,Weekday,9.85
+2023-01-20,BrandA,UK,Early Morning,Weekday,12.33
+2023-01-20,BrandA,UK,Morning,Weekday,16.56
+2023-01-20,BrandA,UK,Mid-Day,Weekday,15.25
+2023-01-20,BrandA,UK,Afternoon,Weekday,11.69
+2023-01-20,BrandA,UK,Evening,Weekday,9.1
+2023-01-20,BrandA,UK,Night,Weekday,19.96
+2023-01-20,BrandA,UK,Late Night,Weekday,11.39
+2023-01-20,BrandA,Canada,Early Morning,Weekday,11.77
+2023-01-20,BrandA,Canada,Morning,Weekday,7.45
+2023-01-20,BrandA,Canada,Mid-Day,Weekday,16.92
+2023-01-20,BrandA,Canada,Afternoon,Weekday,15.41
+2023-01-20,BrandA,Canada,Evening,Weekday,8.31
+2023-01-20,BrandA,Canada,Night,Weekday,6.24
+2023-01-20,BrandA,Canada,Late Night,Weekday,15.21
+2023-01-20,BrandB,USA,Early Morning,Weekday,14.82
+2023-01-20,BrandB,USA,Morning,Weekday,9.1
+2023-01-20,BrandB,USA,Mid-Day,Weekday,19.26
+2023-01-20,BrandB,USA,Afternoon,Weekday,7.27
+2023-01-20,BrandB,USA,Evening,Weekday,11.49
+2023-01-20,BrandB,USA,Night,Weekday,19.15
+2023-01-20,BrandB,USA,Late Night,Weekday,11.3
+2023-01-20,BrandB,UK,Early Morning,Weekday,14.58
+2023-01-20,BrandB,UK,Morning,Weekday,10.96
+2023-01-20,BrandB,UK,Mid-Day,Weekday,9.11
+2023-01-20,BrandB,UK,Afternoon,Weekday,19.76
+2023-01-20,BrandB,UK,Evening,Weekday,11.14
+2023-01-20,BrandB,UK,Night,Weekday,18.41
+2023-01-20,BrandB,UK,Late Night,Weekday,8.45
+2023-01-20,BrandB,Canada,Early Morning,Weekday,8.2
+2023-01-20,BrandB,Canada,Morning,Weekday,5.47
+2023-01-20,BrandB,Canada,Mid-Day,Weekday,14.78
+2023-01-20,BrandB,Canada,Afternoon,Weekday,10.53
+2023-01-20,BrandB,Canada,Evening,Weekday,17.97
+2023-01-20,BrandB,Canada,Night,Weekday,12.1
+2023-01-20,BrandB,Canada,Late Night,Weekday,19.52
+2023-01-20,BrandC,USA,Early Morning,Weekday,7.78
+2023-01-20,BrandC,USA,Morning,Weekday,18.03
+2023-01-20,BrandC,USA,Mid-Day,Weekday,16.65
+2023-01-20,BrandC,USA,Afternoon,Weekday,16.56
+2023-01-20,BrandC,USA,Evening,Weekday,17.67
+2023-01-20,BrandC,USA,Night,Weekday,16.42
+2023-01-20,BrandC,USA,Late Night,Weekday,14.39
+2023-01-20,BrandC,UK,Early Morning,Weekday,6.97
+2023-01-20,BrandC,UK,Morning,Weekday,5.49
+2023-01-20,BrandC,UK,Mid-Day,Weekday,18.81
+2023-01-20,BrandC,UK,Afternoon,Weekday,14.25
+2023-01-20,BrandC,UK,Evening,Weekday,16.95
+2023-01-20,BrandC,UK,Night,Weekday,12.22
+2023-01-20,BrandC,UK,Late Night,Weekday,6.76
+2023-01-20,BrandC,Canada,Early Morning,Weekday,6.88
+2023-01-20,BrandC,Canada,Morning,Weekday,15.28
+2023-01-20,BrandC,Canada,Mid-Day,Weekday,11.45
+2023-01-20,BrandC,Canada,Afternoon,Weekday,8.01
+2023-01-20,BrandC,Canada,Evening,Weekday,12.37
+2023-01-20,BrandC,Canada,Night,Weekday,5.96
+2023-01-20,BrandC,Canada,Late Night,Weekday,13.73
+2023-01-21,BrandA,USA,Early Morning,Weekend,9.03
+2023-01-21,BrandA,USA,Morning,Weekend,16.96
+2023-01-21,BrandA,USA,Mid-Day,Weekend,9.66
+2023-01-21,BrandA,USA,Afternoon,Weekend,11.83
+2023-01-21,BrandA,USA,Evening,Weekend,5.17
+2023-01-21,BrandA,USA,Night,Weekend,6.09
+2023-01-21,BrandA,USA,Late Night,Weekend,10.89
+2023-01-21,BrandA,UK,Early Morning,Weekend,12.2
+2023-01-21,BrandA,UK,Morning,Weekend,14.0
+2023-01-21,BrandA,UK,Mid-Day,Weekend,9.37
+2023-01-21,BrandA,UK,Afternoon,Weekend,15.42
+2023-01-21,BrandA,UK,Evening,Weekend,17.9
+2023-01-21,BrandA,UK,Night,Weekend,16.7
+2023-01-21,BrandA,UK,Late Night,Weekend,5.59
+2023-01-21,BrandA,Canada,Early Morning,Weekend,12.21
+2023-01-21,BrandA,Canada,Morning,Weekend,6.57
+2023-01-21,BrandA,Canada,Mid-Day,Weekend,8.63
+2023-01-21,BrandA,Canada,Afternoon,Weekend,19.8
+2023-01-21,BrandA,Canada,Evening,Weekend,7.14
+2023-01-21,BrandA,Canada,Night,Weekend,12.48
+2023-01-21,BrandA,Canada,Late Night,Weekend,14.27
+2023-01-21,BrandB,USA,Early Morning,Weekend,15.54
+2023-01-21,BrandB,USA,Morning,Weekend,13.39
+2023-01-21,BrandB,USA,Mid-Day,Weekend,5.15
+2023-01-21,BrandB,USA,Afternoon,Weekend,9.9
+2023-01-21,BrandB,USA,Evening,Weekend,12.77
+2023-01-21,BrandB,USA,Night,Weekend,6.32
+2023-01-21,BrandB,USA,Late Night,Weekend,10.26
+2023-01-21,BrandB,UK,Early Morning,Weekend,5.5
+2023-01-21,BrandB,UK,Morning,Weekend,6.18
+2023-01-21,BrandB,UK,Mid-Day,Weekend,10.95
+2023-01-21,BrandB,UK,Afternoon,Weekend,6.99
+2023-01-21,BrandB,UK,Evening,Weekend,13.51
+2023-01-21,BrandB,UK,Night,Weekend,15.34
+2023-01-21,BrandB,UK,Late Night,Weekend,17.01
+2023-01-21,BrandB,Canada,Early Morning,Weekend,8.0
+2023-01-21,BrandB,Canada,Morning,Weekend,7.51
+2023-01-21,BrandB,Canada,Mid-Day,Weekend,6.57
+2023-01-21,BrandB,Canada,Afternoon,Weekend,14.55
+2023-01-21,BrandB,Canada,Evening,Weekend,15.6
+2023-01-21,BrandB,Canada,Night,Weekend,5.47
+2023-01-21,BrandB,Canada,Late Night,Weekend,19.04
+2023-01-21,BrandC,USA,Early Morning,Weekend,5.78
+2023-01-21,BrandC,USA,Morning,Weekend,13.12
+2023-01-21,BrandC,USA,Mid-Day,Weekend,15.64
+2023-01-21,BrandC,USA,Afternoon,Weekend,18.06
+2023-01-21,BrandC,USA,Evening,Weekend,15.71
+2023-01-21,BrandC,USA,Night,Weekend,17.03
+2023-01-21,BrandC,USA,Late Night,Weekend,10.09
+2023-01-21,BrandC,UK,Early Morning,Weekend,17.22
+2023-01-21,BrandC,UK,Morning,Weekend,6.2
+2023-01-21,BrandC,UK,Mid-Day,Weekend,18.42
+2023-01-21,BrandC,UK,Afternoon,Weekend,13.21
+2023-01-21,BrandC,UK,Evening,Weekend,17.26
+2023-01-21,BrandC,UK,Night,Weekend,11.78
+2023-01-21,BrandC,UK,Late Night,Weekend,14.65
+2023-01-21,BrandC,Canada,Early Morning,Weekend,12.9
+2023-01-21,BrandC,Canada,Morning,Weekend,15.97
+2023-01-21,BrandC,Canada,Mid-Day,Weekend,6.22
+2023-01-21,BrandC,Canada,Afternoon,Weekend,5.91
+2023-01-21,BrandC,Canada,Evening,Weekend,8.71
+2023-01-21,BrandC,Canada,Night,Weekend,7.39
+2023-01-21,BrandC,Canada,Late Night,Weekend,18.08
+2023-01-22,BrandA,USA,Early Morning,Weekend,8.29
+2023-01-22,BrandA,USA,Morning,Weekend,19.64
+2023-01-22,BrandA,USA,Mid-Day,Weekend,10.05
+2023-01-22,BrandA,USA,Afternoon,Weekend,7.73
+2023-01-22,BrandA,USA,Evening,Weekend,16.85
+2023-01-22,BrandA,USA,Night,Weekend,14.88
+2023-01-22,BrandA,USA,Late Night,Weekend,12.47
+2023-01-22,BrandA,UK,Early Morning,Weekend,13.33
+2023-01-22,BrandA,UK,Morning,Weekend,15.79
+2023-01-22,BrandA,UK,Mid-Day,Weekend,8.43
+2023-01-22,BrandA,UK,Afternoon,Weekend,19.95
+2023-01-22,BrandA,UK,Evening,Weekend,19.62
+2023-01-22,BrandA,UK,Night,Weekend,14.75
+2023-01-22,BrandA,UK,Late Night,Weekend,7.99
+2023-01-22,BrandA,Canada,Early Morning,Weekend,15.2
+2023-01-22,BrandA,Canada,Morning,Weekend,6.08
+2023-01-22,BrandA,Canada,Mid-Day,Weekend,5.46
+2023-01-22,BrandA,Canada,Afternoon,Weekend,8.87
+2023-01-22,BrandA,Canada,Evening,Weekend,11.94
+2023-01-22,BrandA,Canada,Night,Weekend,18.02
+2023-01-22,BrandA,Canada,Late Night,Weekend,15.91
+2023-01-22,BrandB,USA,Early Morning,Weekend,16.14
+2023-01-22,BrandB,USA,Morning,Weekend,11.38
+2023-01-22,BrandB,USA,Mid-Day,Weekend,10.19
+2023-01-22,BrandB,USA,Afternoon,Weekend,10.57
+2023-01-22,BrandB,USA,Evening,Weekend,19.81
+2023-01-22,BrandB,USA,Night,Weekend,5.6
+2023-01-22,BrandB,USA,Late Night,Weekend,18.01
+2023-01-22,BrandB,UK,Early Morning,Weekend,13.68
+2023-01-22,BrandB,UK,Morning,Weekend,11.58
+2023-01-22,BrandB,UK,Mid-Day,Weekend,15.88
+2023-01-22,BrandB,UK,Afternoon,Weekend,12.3
+2023-01-22,BrandB,UK,Evening,Weekend,18.1
+2023-01-22,BrandB,UK,Night,Weekend,18.51
+2023-01-22,BrandB,UK,Late Night,Weekend,11.33
+2023-01-22,BrandB,Canada,Early Morning,Weekend,9.15
+2023-01-22,BrandB,Canada,Morning,Weekend,13.89
+2023-01-22,BrandB,Canada,Mid-Day,Weekend,18.69
+2023-01-22,BrandB,Canada,Afternoon,Weekend,8.16
+2023-01-22,BrandB,Canada,Evening,Weekend,14.34
+2023-01-22,BrandB,Canada,Night,Weekend,14.47
+2023-01-22,BrandB,Canada,Late Night,Weekend,16.0
+2023-01-22,BrandC,USA,Early Morning,Weekend,6.97
+2023-01-22,BrandC,USA,Morning,Weekend,15.74
+2023-01-22,BrandC,USA,Mid-Day,Weekend,18.64
+2023-01-22,BrandC,USA,Afternoon,Weekend,7.7
+2023-01-22,BrandC,USA,Evening,Weekend,8.56
+2023-01-22,BrandC,USA,Night,Weekend,19.57
+2023-01-22,BrandC,USA,Late Night,Weekend,7.71
+2023-01-22,BrandC,UK,Early Morning,Weekend,17.82
+2023-01-22,BrandC,UK,Morning,Weekend,12.38
+2023-01-22,BrandC,UK,Mid-Day,Weekend,8.71
+2023-01-22,BrandC,UK,Afternoon,Weekend,18.06
+2023-01-22,BrandC,UK,Evening,Weekend,11.68
+2023-01-22,BrandC,UK,Night,Weekend,12.72
+2023-01-22,BrandC,UK,Late Night,Weekend,10.39
+2023-01-22,BrandC,Canada,Early Morning,Weekend,13.89
+2023-01-22,BrandC,Canada,Morning,Weekend,7.45
+2023-01-22,BrandC,Canada,Mid-Day,Weekend,10.87
+2023-01-22,BrandC,Canada,Afternoon,Weekend,19.54
+2023-01-22,BrandC,Canada,Evening,Weekend,8.87
+2023-01-22,BrandC,Canada,Night,Weekend,14.85
+2023-01-22,BrandC,Canada,Late Night,Weekend,9.88
+2023-01-23,BrandA,USA,Early Morning,Weekday,16.6
+2023-01-23,BrandA,USA,Morning,Weekday,6.96
+2023-01-23,BrandA,USA,Mid-Day,Weekday,19.55
+2023-01-23,BrandA,USA,Afternoon,Weekday,11.81
+2023-01-23,BrandA,USA,Evening,Weekday,8.54
+2023-01-23,BrandA,USA,Night,Weekday,6.1
+2023-01-23,BrandA,USA,Late Night,Weekday,7.55
+2023-01-23,BrandA,UK,Early Morning,Weekday,12.8
+2023-01-23,BrandA,UK,Morning,Weekday,10.06
+2023-01-23,BrandA,UK,Mid-Day,Weekday,17.43
+2023-01-23,BrandA,UK,Afternoon,Weekday,11.46
+2023-01-23,BrandA,UK,Evening,Weekday,8.73
+2023-01-23,BrandA,UK,Night,Weekday,14.26
+2023-01-23,BrandA,UK,Late Night,Weekday,15.6
+2023-01-23,BrandA,Canada,Early Morning,Weekday,7.51
+2023-01-23,BrandA,Canada,Morning,Weekday,7.51
+2023-01-23,BrandA,Canada,Mid-Day,Weekday,5.55
+2023-01-23,BrandA,Canada,Afternoon,Weekday,16.05
+2023-01-23,BrandA,Canada,Evening,Weekday,14.96
+2023-01-23,BrandA,Canada,Night,Weekday,12.12
+2023-01-23,BrandA,Canada,Late Night,Weekday,17.66
+2023-01-23,BrandB,USA,Early Morning,Weekday,17.09
+2023-01-23,BrandB,USA,Morning,Weekday,13.78
+2023-01-23,BrandB,USA,Mid-Day,Weekday,18.02
+2023-01-23,BrandB,USA,Afternoon,Weekday,8.09
+2023-01-23,BrandB,USA,Evening,Weekday,6.68
+2023-01-23,BrandB,USA,Night,Weekday,9.05
+2023-01-23,BrandB,USA,Late Night,Weekday,5.86
+2023-01-23,BrandB,UK,Early Morning,Weekday,12.97
+2023-01-23,BrandB,UK,Morning,Weekday,19.05
+2023-01-23,BrandB,UK,Mid-Day,Weekday,5.59
+2023-01-23,BrandB,UK,Afternoon,Weekday,6.83
+2023-01-23,BrandB,UK,Evening,Weekday,11.78
+2023-01-23,BrandB,UK,Night,Weekday,19.01
+2023-01-23,BrandB,UK,Late Night,Weekday,9.74
+2023-01-23,BrandB,Canada,Early Morning,Weekday,12.61
+2023-01-23,BrandB,Canada,Morning,Weekday,5.62
+2023-01-23,BrandB,Canada,Mid-Day,Weekday,7.23
+2023-01-23,BrandB,Canada,Afternoon,Weekday,19.8
+2023-01-23,BrandB,Canada,Evening,Weekday,19.48
+2023-01-23,BrandB,Canada,Night,Weekday,5.07
+2023-01-23,BrandB,Canada,Late Night,Weekday,19.28
+2023-01-23,BrandC,USA,Early Morning,Weekday,14.59
+2023-01-23,BrandC,USA,Morning,Weekday,18.02
+2023-01-23,BrandC,USA,Mid-Day,Weekday,11.82
+2023-01-23,BrandC,USA,Afternoon,Weekday,12.73
+2023-01-23,BrandC,USA,Evening,Weekday,12.33
+2023-01-23,BrandC,USA,Night,Weekday,15.0
+2023-01-23,BrandC,USA,Late Night,Weekday,7.09
+2023-01-23,BrandC,UK,Early Morning,Weekday,5.45
+2023-01-23,BrandC,UK,Morning,Weekday,9.62
+2023-01-23,BrandC,UK,Mid-Day,Weekday,15.57
+2023-01-23,BrandC,UK,Afternoon,Weekday,8.03
+2023-01-23,BrandC,UK,Evening,Weekday,15.1
+2023-01-23,BrandC,UK,Night,Weekday,19.55
+2023-01-23,BrandC,UK,Late Night,Weekday,6.41
+2023-01-23,BrandC,Canada,Early Morning,Weekday,15.09
+2023-01-23,BrandC,Canada,Morning,Weekday,11.66
+2023-01-23,BrandC,Canada,Mid-Day,Weekday,18.02
+2023-01-23,BrandC,Canada,Afternoon,Weekday,7.66
+2023-01-23,BrandC,Canada,Evening,Weekday,15.39
+2023-01-23,BrandC,Canada,Night,Weekday,17.57
+2023-01-23,BrandC,Canada,Late Night,Weekday,19.17
+2023-01-24,BrandA,USA,Early Morning,Weekday,15.25
+2023-01-24,BrandA,USA,Morning,Weekday,12.46
+2023-01-24,BrandA,USA,Mid-Day,Weekday,14.27
+2023-01-24,BrandA,USA,Afternoon,Weekday,18.03
+2023-01-24,BrandA,USA,Evening,Weekday,13.56
+2023-01-24,BrandA,USA,Night,Weekday,5.46
+2023-01-24,BrandA,USA,Late Night,Weekday,18.96
+2023-01-24,BrandA,UK,Early Morning,Weekday,15.34
+2023-01-24,BrandA,UK,Morning,Weekday,15.15
+2023-01-24,BrandA,UK,Mid-Day,Weekday,8.24
+2023-01-24,BrandA,UK,Afternoon,Weekday,14.88
+2023-01-24,BrandA,UK,Evening,Weekday,10.91
+2023-01-24,BrandA,UK,Night,Weekday,14.77
+2023-01-24,BrandA,UK,Late Night,Weekday,6.6
+2023-01-24,BrandA,Canada,Early Morning,Weekday,14.87
+2023-01-24,BrandA,Canada,Morning,Weekday,19.99
+2023-01-24,BrandA,Canada,Mid-Day,Weekday,5.72
+2023-01-24,BrandA,Canada,Afternoon,Weekday,19.66
+2023-01-24,BrandA,Canada,Evening,Weekday,11.1
+2023-01-24,BrandA,Canada,Night,Weekday,18.06
+2023-01-24,BrandA,Canada,Late Night,Weekday,16.74
+2023-01-24,BrandB,USA,Early Morning,Weekday,13.51
+2023-01-24,BrandB,USA,Morning,Weekday,16.08
+2023-01-24,BrandB,USA,Mid-Day,Weekday,18.18
+2023-01-24,BrandB,USA,Afternoon,Weekday,11.06
+2023-01-24,BrandB,USA,Evening,Weekday,9.91
+2023-01-24,BrandB,USA,Night,Weekday,15.01
+2023-01-24,BrandB,USA,Late Night,Weekday,17.12
+2023-01-24,BrandB,UK,Early Morning,Weekday,16.43
+2023-01-24,BrandB,UK,Morning,Weekday,16.97
+2023-01-24,BrandB,UK,Mid-Day,Weekday,11.53
+2023-01-24,BrandB,UK,Afternoon,Weekday,17.27
+2023-01-24,BrandB,UK,Evening,Weekday,6.8
+2023-01-24,BrandB,UK,Night,Weekday,13.17
+2023-01-24,BrandB,UK,Late Night,Weekday,5.09
+2023-01-24,BrandB,Canada,Early Morning,Weekday,9.87
+2023-01-24,BrandB,Canada,Morning,Weekday,10.5
+2023-01-24,BrandB,Canada,Mid-Day,Weekday,10.94
+2023-01-24,BrandB,Canada,Afternoon,Weekday,15.43
+2023-01-24,BrandB,Canada,Evening,Weekday,10.83
+2023-01-24,BrandB,Canada,Night,Weekday,11.73
+2023-01-24,BrandB,Canada,Late Night,Weekday,8.56
+2023-01-24,BrandC,USA,Early Morning,Weekday,10.6
+2023-01-24,BrandC,USA,Morning,Weekday,8.41
+2023-01-24,BrandC,USA,Mid-Day,Weekday,6.1
+2023-01-24,BrandC,USA,Afternoon,Weekday,14.05
+2023-01-24,BrandC,USA,Evening,Weekday,15.02
+2023-01-24,BrandC,USA,Night,Weekday,14.29
+2023-01-24,BrandC,USA,Late Night,Weekday,11.95
+2023-01-24,BrandC,UK,Early Morning,Weekday,10.7
+2023-01-24,BrandC,UK,Morning,Weekday,17.95
+2023-01-24,BrandC,UK,Mid-Day,Weekday,12.79
+2023-01-24,BrandC,UK,Afternoon,Weekday,12.19
+2023-01-24,BrandC,UK,Evening,Weekday,5.38
+2023-01-24,BrandC,UK,Night,Weekday,10.12
+2023-01-24,BrandC,UK,Late Night,Weekday,10.7
+2023-01-24,BrandC,Canada,Early Morning,Weekday,10.98
+2023-01-24,BrandC,Canada,Morning,Weekday,13.7
+2023-01-24,BrandC,Canada,Mid-Day,Weekday,13.0
+2023-01-24,BrandC,Canada,Afternoon,Weekday,14.12
+2023-01-24,BrandC,Canada,Evening,Weekday,16.47
+2023-01-24,BrandC,Canada,Night,Weekday,17.19
+2023-01-24,BrandC,Canada,Late Night,Weekday,15.77
+2023-01-25,BrandA,USA,Early Morning,Weekday,19.33
+2023-01-25,BrandA,USA,Morning,Weekday,5.27
+2023-01-25,BrandA,USA,Mid-Day,Weekday,7.94
+2023-01-25,BrandA,USA,Afternoon,Weekday,5.11
+2023-01-25,BrandA,USA,Evening,Weekday,14.71
+2023-01-25,BrandA,USA,Night,Weekday,18.47
+2023-01-25,BrandA,USA,Late Night,Weekday,8.65
+2023-01-25,BrandA,UK,Early Morning,Weekday,18.91
+2023-01-25,BrandA,UK,Morning,Weekday,5.9
+2023-01-25,BrandA,UK,Mid-Day,Weekday,19.02
+2023-01-25,BrandA,UK,Afternoon,Weekday,10.27
+2023-01-25,BrandA,UK,Evening,Weekday,6.52
+2023-01-25,BrandA,UK,Night,Weekday,12.29
+2023-01-25,BrandA,UK,Late Night,Weekday,8.85
+2023-01-25,BrandA,Canada,Early Morning,Weekday,9.27
+2023-01-25,BrandA,Canada,Morning,Weekday,9.61
+2023-01-25,BrandA,Canada,Mid-Day,Weekday,17.05
+2023-01-25,BrandA,Canada,Afternoon,Weekday,13.09
+2023-01-25,BrandA,Canada,Evening,Weekday,9.67
+2023-01-25,BrandA,Canada,Night,Weekday,14.16
+2023-01-25,BrandA,Canada,Late Night,Weekday,15.74
+2023-01-25,BrandB,USA,Early Morning,Weekday,9.09
+2023-01-25,BrandB,USA,Morning,Weekday,11.2
+2023-01-25,BrandB,USA,Mid-Day,Weekday,6.83
+2023-01-25,BrandB,USA,Afternoon,Weekday,7.72
+2023-01-25,BrandB,USA,Evening,Weekday,15.22
+2023-01-25,BrandB,USA,Night,Weekday,7.72
+2023-01-25,BrandB,USA,Late Night,Weekday,12.88
+2023-01-25,BrandB,UK,Early Morning,Weekday,15.64
+2023-01-25,BrandB,UK,Morning,Weekday,6.6
+2023-01-25,BrandB,UK,Mid-Day,Weekday,13.51
+2023-01-25,BrandB,UK,Afternoon,Weekday,8.85
+2023-01-25,BrandB,UK,Evening,Weekday,19.44
+2023-01-25,BrandB,UK,Night,Weekday,12.25
+2023-01-25,BrandB,UK,Late Night,Weekday,17.09
+2023-01-25,BrandB,Canada,Early Morning,Weekday,13.25
+2023-01-25,BrandB,Canada,Morning,Weekday,5.65
+2023-01-25,BrandB,Canada,Mid-Day,Weekday,14.5
+2023-01-25,BrandB,Canada,Afternoon,Weekday,19.27
+2023-01-25,BrandB,Canada,Evening,Weekday,14.02
+2023-01-25,BrandB,Canada,Night,Weekday,17.29
+2023-01-25,BrandB,Canada,Late Night,Weekday,18.26
+2023-01-25,BrandC,USA,Early Morning,Weekday,8.42
+2023-01-25,BrandC,USA,Morning,Weekday,8.18
+2023-01-25,BrandC,USA,Mid-Day,Weekday,14.16
+2023-01-25,BrandC,USA,Afternoon,Weekday,11.17
+2023-01-25,BrandC,USA,Evening,Weekday,17.6
+2023-01-25,BrandC,USA,Night,Weekday,18.5
+2023-01-25,BrandC,USA,Late Night,Weekday,10.3
+2023-01-25,BrandC,UK,Early Morning,Weekday,8.55
+2023-01-25,BrandC,UK,Morning,Weekday,16.71
+2023-01-25,BrandC,UK,Mid-Day,Weekday,9.12
+2023-01-25,BrandC,UK,Afternoon,Weekday,17.34
+2023-01-25,BrandC,UK,Evening,Weekday,11.36
+2023-01-25,BrandC,UK,Night,Weekday,15.01
+2023-01-25,BrandC,UK,Late Night,Weekday,6.43
+2023-01-25,BrandC,Canada,Early Morning,Weekday,14.36
+2023-01-25,BrandC,Canada,Morning,Weekday,11.78
+2023-01-25,BrandC,Canada,Mid-Day,Weekday,13.8
+2023-01-25,BrandC,Canada,Afternoon,Weekday,7.52
+2023-01-25,BrandC,Canada,Evening,Weekday,16.05
+2023-01-25,BrandC,Canada,Night,Weekday,17.94
+2023-01-25,BrandC,Canada,Late Night,Weekday,8.25
+2023-01-26,BrandA,USA,Early Morning,Weekday,6.44
+2023-01-26,BrandA,USA,Morning,Weekday,5.35
+2023-01-26,BrandA,USA,Mid-Day,Weekday,14.63
+2023-01-26,BrandA,USA,Afternoon,Weekday,14.11
+2023-01-26,BrandA,USA,Evening,Weekday,13.2
+2023-01-26,BrandA,USA,Night,Weekday,8.48
+2023-01-26,BrandA,USA,Late Night,Weekday,10.86
+2023-01-26,BrandA,UK,Early Morning,Weekday,13.92
+2023-01-26,BrandA,UK,Morning,Weekday,12.45
+2023-01-26,BrandA,UK,Mid-Day,Weekday,19.82
+2023-01-26,BrandA,UK,Afternoon,Weekday,7.05
+2023-01-26,BrandA,UK,Evening,Weekday,15.43
+2023-01-26,BrandA,UK,Night,Weekday,11.06
+2023-01-26,BrandA,UK,Late Night,Weekday,11.42
+2023-01-26,BrandA,Canada,Early Morning,Weekday,15.76
+2023-01-26,BrandA,Canada,Morning,Weekday,15.39
+2023-01-26,BrandA,Canada,Mid-Day,Weekday,19.87
+2023-01-26,BrandA,Canada,Afternoon,Weekday,6.93
+2023-01-26,BrandA,Canada,Evening,Weekday,6.56
+2023-01-26,BrandA,Canada,Night,Weekday,15.87
+2023-01-26,BrandA,Canada,Late Night,Weekday,13.68
+2023-01-26,BrandB,USA,Early Morning,Weekday,9.11
+2023-01-26,BrandB,USA,Morning,Weekday,6.19
+2023-01-26,BrandB,USA,Mid-Day,Weekday,6.28
+2023-01-26,BrandB,USA,Afternoon,Weekday,18.41
+2023-01-26,BrandB,USA,Evening,Weekday,7.88
+2023-01-26,BrandB,USA,Night,Weekday,9.85
+2023-01-26,BrandB,USA,Late Night,Weekday,8.4
+2023-01-26,BrandB,UK,Early Morning,Weekday,10.32
+2023-01-26,BrandB,UK,Morning,Weekday,6.04
+2023-01-26,BrandB,UK,Mid-Day,Weekday,12.79
+2023-01-26,BrandB,UK,Afternoon,Weekday,6.01
+2023-01-26,BrandB,UK,Evening,Weekday,17.01
+2023-01-26,BrandB,UK,Night,Weekday,8.51
+2023-01-26,BrandB,UK,Late Night,Weekday,13.1
+2023-01-26,BrandB,Canada,Early Morning,Weekday,18.2
+2023-01-26,BrandB,Canada,Morning,Weekday,14.76
+2023-01-26,BrandB,Canada,Mid-Day,Weekday,12.99
+2023-01-26,BrandB,Canada,Afternoon,Weekday,9.87
+2023-01-26,BrandB,Canada,Evening,Weekday,10.0
+2023-01-26,BrandB,Canada,Night,Weekday,15.04
+2023-01-26,BrandB,Canada,Late Night,Weekday,19.91
+2023-01-26,BrandC,USA,Early Morning,Weekday,14.93
+2023-01-26,BrandC,USA,Morning,Weekday,13.37
+2023-01-26,BrandC,USA,Mid-Day,Weekday,15.96
+2023-01-26,BrandC,USA,Afternoon,Weekday,11.98
+2023-01-26,BrandC,USA,Evening,Weekday,5.9
+2023-01-26,BrandC,USA,Night,Weekday,13.43
+2023-01-26,BrandC,USA,Late Night,Weekday,19.36
+2023-01-26,BrandC,UK,Early Morning,Weekday,7.63
+2023-01-26,BrandC,UK,Morning,Weekday,15.35
+2023-01-26,BrandC,UK,Mid-Day,Weekday,8.01
+2023-01-26,BrandC,UK,Afternoon,Weekday,13.04
+2023-01-26,BrandC,UK,Evening,Weekday,6.45
+2023-01-26,BrandC,UK,Night,Weekday,11.76
+2023-01-26,BrandC,UK,Late Night,Weekday,16.34
+2023-01-26,BrandC,Canada,Early Morning,Weekday,10.21
+2023-01-26,BrandC,Canada,Morning,Weekday,14.97
+2023-01-26,BrandC,Canada,Mid-Day,Weekday,16.93
+2023-01-26,BrandC,Canada,Afternoon,Weekday,18.91
+2023-01-26,BrandC,Canada,Evening,Weekday,8.52
+2023-01-26,BrandC,Canada,Night,Weekday,10.99
+2023-01-26,BrandC,Canada,Late Night,Weekday,7.29
+2023-01-27,BrandA,USA,Early Morning,Weekday,19.89
+2023-01-27,BrandA,USA,Morning,Weekday,18.91
+2023-01-27,BrandA,USA,Mid-Day,Weekday,13.1
+2023-01-27,BrandA,USA,Afternoon,Weekday,17.63
+2023-01-27,BrandA,USA,Evening,Weekday,12.81
+2023-01-27,BrandA,USA,Night,Weekday,14.35
+2023-01-27,BrandA,USA,Late Night,Weekday,6.34
+2023-01-27,BrandA,UK,Early Morning,Weekday,16.33
+2023-01-27,BrandA,UK,Morning,Weekday,6.92
+2023-01-27,BrandA,UK,Mid-Day,Weekday,17.39
+2023-01-27,BrandA,UK,Afternoon,Weekday,16.73
+2023-01-27,BrandA,UK,Evening,Weekday,15.63
+2023-01-27,BrandA,UK,Night,Weekday,5.54
+2023-01-27,BrandA,UK,Late Night,Weekday,9.55
+2023-01-27,BrandA,Canada,Early Morning,Weekday,8.95
+2023-01-27,BrandA,Canada,Morning,Weekday,10.4
+2023-01-27,BrandA,Canada,Mid-Day,Weekday,6.31
+2023-01-27,BrandA,Canada,Afternoon,Weekday,19.05
+2023-01-27,BrandA,Canada,Evening,Weekday,13.31
+2023-01-27,BrandA,Canada,Night,Weekday,9.58
+2023-01-27,BrandA,Canada,Late Night,Weekday,10.95
+2023-01-27,BrandB,USA,Early Morning,Weekday,11.71
+2023-01-27,BrandB,USA,Morning,Weekday,14.01
+2023-01-27,BrandB,USA,Mid-Day,Weekday,12.74
+2023-01-27,BrandB,USA,Afternoon,Weekday,18.79
+2023-01-27,BrandB,USA,Evening,Weekday,12.45
+2023-01-27,BrandB,USA,Night,Weekday,19.88
+2023-01-27,BrandB,USA,Late Night,Weekday,17.77
+2023-01-27,BrandB,UK,Early Morning,Weekday,8.13
+2023-01-27,BrandB,UK,Morning,Weekday,18.96
+2023-01-27,BrandB,UK,Mid-Day,Weekday,6.75
+2023-01-27,BrandB,UK,Afternoon,Weekday,17.26
+2023-01-27,BrandB,UK,Evening,Weekday,10.71
+2023-01-27,BrandB,UK,Night,Weekday,18.17
+2023-01-27,BrandB,UK,Late Night,Weekday,18.02
+2023-01-27,BrandB,Canada,Early Morning,Weekday,17.09
+2023-01-27,BrandB,Canada,Morning,Weekday,16.85
+2023-01-27,BrandB,Canada,Mid-Day,Weekday,9.57
+2023-01-27,BrandB,Canada,Afternoon,Weekday,6.21
+2023-01-27,BrandB,Canada,Evening,Weekday,11.04
+2023-01-27,BrandB,Canada,Night,Weekday,7.6
+2023-01-27,BrandB,Canada,Late Night,Weekday,15.42
+2023-01-27,BrandC,USA,Early Morning,Weekday,10.19
+2023-01-27,BrandC,USA,Morning,Weekday,19.63
+2023-01-27,BrandC,USA,Mid-Day,Weekday,14.61
+2023-01-27,BrandC,USA,Afternoon,Weekday,17.34
+2023-01-27,BrandC,USA,Evening,Weekday,6.99
+2023-01-27,BrandC,USA,Night,Weekday,17.93
+2023-01-27,BrandC,USA,Late Night,Weekday,18.84
+2023-01-27,BrandC,UK,Early Morning,Weekday,12.31
+2023-01-27,BrandC,UK,Morning,Weekday,14.09
+2023-01-27,BrandC,UK,Mid-Day,Weekday,16.47
+2023-01-27,BrandC,UK,Afternoon,Weekday,7.62
+2023-01-27,BrandC,UK,Evening,Weekday,12.54
+2023-01-27,BrandC,UK,Night,Weekday,10.98
+2023-01-27,BrandC,UK,Late Night,Weekday,7.2
+2023-01-27,BrandC,Canada,Early Morning,Weekday,10.51
+2023-01-27,BrandC,Canada,Morning,Weekday,6.02
+2023-01-27,BrandC,Canada,Mid-Day,Weekday,5.39
+2023-01-27,BrandC,Canada,Afternoon,Weekday,7.03
+2023-01-27,BrandC,Canada,Evening,Weekday,19.45
+2023-01-27,BrandC,Canada,Night,Weekday,13.24
+2023-01-27,BrandC,Canada,Late Night,Weekday,19.49
+2023-01-28,BrandA,USA,Early Morning,Weekend,11.49
+2023-01-28,BrandA,USA,Morning,Weekend,9.68
+2023-01-28,BrandA,USA,Mid-Day,Weekend,12.59
+2023-01-28,BrandA,USA,Afternoon,Weekend,11.59
+2023-01-28,BrandA,USA,Evening,Weekend,6.58
+2023-01-28,BrandA,USA,Night,Weekend,14.61
+2023-01-28,BrandA,USA,Late Night,Weekend,8.24
+2023-01-28,BrandA,UK,Early Morning,Weekend,14.29
+2023-01-28,BrandA,UK,Morning,Weekend,14.75
+2023-01-28,BrandA,UK,Mid-Day,Weekend,7.28
+2023-01-28,BrandA,UK,Afternoon,Weekend,5.92
+2023-01-28,BrandA,UK,Evening,Weekend,16.71
+2023-01-28,BrandA,UK,Night,Weekend,11.9
+2023-01-28,BrandA,UK,Late Night,Weekend,5.87
+2023-01-28,BrandA,Canada,Early Morning,Weekend,19.92
+2023-01-28,BrandA,Canada,Morning,Weekend,5.87
+2023-01-28,BrandA,Canada,Mid-Day,Weekend,15.43
+2023-01-28,BrandA,Canada,Afternoon,Weekend,19.76
+2023-01-28,BrandA,Canada,Evening,Weekend,8.59
+2023-01-28,BrandA,Canada,Night,Weekend,7.13
+2023-01-28,BrandA,Canada,Late Night,Weekend,6.82
+2023-01-28,BrandB,USA,Early Morning,Weekend,9.55
+2023-01-28,BrandB,USA,Morning,Weekend,6.52
+2023-01-28,BrandB,USA,Mid-Day,Weekend,15.38
+2023-01-28,BrandB,USA,Afternoon,Weekend,5.93
+2023-01-28,BrandB,USA,Evening,Weekend,12.64
+2023-01-28,BrandB,USA,Night,Weekend,19.95
+2023-01-28,BrandB,USA,Late Night,Weekend,17.21
+2023-01-28,BrandB,UK,Early Morning,Weekend,14.23
+2023-01-28,BrandB,UK,Morning,Weekend,9.59
+2023-01-28,BrandB,UK,Mid-Day,Weekend,14.36
+2023-01-28,BrandB,UK,Afternoon,Weekend,12.91
+2023-01-28,BrandB,UK,Evening,Weekend,11.39
+2023-01-28,BrandB,UK,Night,Weekend,6.96
+2023-01-28,BrandB,UK,Late Night,Weekend,18.3
+2023-01-28,BrandB,Canada,Early Morning,Weekend,11.75
+2023-01-28,BrandB,Canada,Morning,Weekend,7.92
+2023-01-28,BrandB,Canada,Mid-Day,Weekend,10.52
+2023-01-28,BrandB,Canada,Afternoon,Weekend,11.21
+2023-01-28,BrandB,Canada,Evening,Weekend,17.41
+2023-01-28,BrandB,Canada,Night,Weekend,16.0
+2023-01-28,BrandB,Canada,Late Night,Weekend,16.54
+2023-01-28,BrandC,USA,Early Morning,Weekend,5.17
+2023-01-28,BrandC,USA,Morning,Weekend,11.24
+2023-01-28,BrandC,USA,Mid-Day,Weekend,12.22
+2023-01-28,BrandC,USA,Afternoon,Weekend,5.29
+2023-01-28,BrandC,USA,Evening,Weekend,8.9
+2023-01-28,BrandC,USA,Night,Weekend,16.4
+2023-01-28,BrandC,USA,Late Night,Weekend,7.06
+2023-01-28,BrandC,UK,Early Morning,Weekend,13.03
+2023-01-28,BrandC,UK,Morning,Weekend,8.23
+2023-01-28,BrandC,UK,Mid-Day,Weekend,5.18
+2023-01-28,BrandC,UK,Afternoon,Weekend,8.62
+2023-01-28,BrandC,UK,Evening,Weekend,19.64
+2023-01-28,BrandC,UK,Night,Weekend,17.02
+2023-01-28,BrandC,UK,Late Night,Weekend,19.39
+2023-01-28,BrandC,Canada,Early Morning,Weekend,12.32
+2023-01-28,BrandC,Canada,Morning,Weekend,6.65
+2023-01-28,BrandC,Canada,Mid-Day,Weekend,13.22
+2023-01-28,BrandC,Canada,Afternoon,Weekend,11.82
+2023-01-28,BrandC,Canada,Evening,Weekend,17.67
+2023-01-28,BrandC,Canada,Night,Weekend,6.47
+2023-01-28,BrandC,Canada,Late Night,Weekend,12.32
+2023-01-29,BrandA,USA,Early Morning,Weekend,7.25
+2023-01-29,BrandA,USA,Morning,Weekend,9.87
+2023-01-29,BrandA,USA,Mid-Day,Weekend,16.06
+2023-01-29,BrandA,USA,Afternoon,Weekend,12.14
+2023-01-29,BrandA,USA,Evening,Weekend,10.64
+2023-01-29,BrandA,USA,Night,Weekend,10.92
+2023-01-29,BrandA,USA,Late Night,Weekend,11.89
+2023-01-29,BrandA,UK,Early Morning,Weekend,16.78
+2023-01-29,BrandA,UK,Morning,Weekend,18.38
+2023-01-29,BrandA,UK,Mid-Day,Weekend,19.33
+2023-01-29,BrandA,UK,Afternoon,Weekend,16.8
+2023-01-29,BrandA,UK,Evening,Weekend,9.73
+2023-01-29,BrandA,UK,Night,Weekend,15.32
+2023-01-29,BrandA,UK,Late Night,Weekend,11.56
+2023-01-29,BrandA,Canada,Early Morning,Weekend,8.82
+2023-01-29,BrandA,Canada,Morning,Weekend,17.61
+2023-01-29,BrandA,Canada,Mid-Day,Weekend,5.58
+2023-01-29,BrandA,Canada,Afternoon,Weekend,18.53
+2023-01-29,BrandA,Canada,Evening,Weekend,11.92
+2023-01-29,BrandA,Canada,Night,Weekend,14.56
+2023-01-29,BrandA,Canada,Late Night,Weekend,14.89
+2023-01-29,BrandB,USA,Early Morning,Weekend,18.43
+2023-01-29,BrandB,USA,Morning,Weekend,14.55
+2023-01-29,BrandB,USA,Mid-Day,Weekend,14.21
+2023-01-29,BrandB,USA,Afternoon,Weekend,6.0
+2023-01-29,BrandB,USA,Evening,Weekend,12.78
+2023-01-29,BrandB,USA,Night,Weekend,7.25
+2023-01-29,BrandB,USA,Late Night,Weekend,16.06
+2023-01-29,BrandB,UK,Early Morning,Weekend,12.68
+2023-01-29,BrandB,UK,Morning,Weekend,15.2
+2023-01-29,BrandB,UK,Mid-Day,Weekend,5.63
+2023-01-29,BrandB,UK,Afternoon,Weekend,6.27
+2023-01-29,BrandB,UK,Evening,Weekend,15.74
+2023-01-29,BrandB,UK,Night,Weekend,6.08
+2023-01-29,BrandB,UK,Late Night,Weekend,6.07
+2023-01-29,BrandB,Canada,Early Morning,Weekend,5.18
+2023-01-29,BrandB,Canada,Morning,Weekend,19.35
+2023-01-29,BrandB,Canada,Mid-Day,Weekend,16.06
+2023-01-29,BrandB,Canada,Afternoon,Weekend,10.3
+2023-01-29,BrandB,Canada,Evening,Weekend,9.45
+2023-01-29,BrandB,Canada,Night,Weekend,10.25
+2023-01-29,BrandB,Canada,Late Night,Weekend,16.62
+2023-01-29,BrandC,USA,Early Morning,Weekend,14.92
+2023-01-29,BrandC,USA,Morning,Weekend,7.78
+2023-01-29,BrandC,USA,Mid-Day,Weekend,7.61
+2023-01-29,BrandC,USA,Afternoon,Weekend,6.48
+2023-01-29,BrandC,USA,Evening,Weekend,14.9
+2023-01-29,BrandC,USA,Night,Weekend,16.47
+2023-01-29,BrandC,USA,Late Night,Weekend,8.98
+2023-01-29,BrandC,UK,Early Morning,Weekend,5.31
+2023-01-29,BrandC,UK,Morning,Weekend,6.23
+2023-01-29,BrandC,UK,Mid-Day,Weekend,19.52
+2023-01-29,BrandC,UK,Afternoon,Weekend,9.43
+2023-01-29,BrandC,UK,Evening,Weekend,16.54
+2023-01-29,BrandC,UK,Night,Weekend,14.37
+2023-01-29,BrandC,UK,Late Night,Weekend,10.73
+2023-01-29,BrandC,Canada,Early Morning,Weekend,8.09
+2023-01-29,BrandC,Canada,Morning,Weekend,6.82
+2023-01-29,BrandC,Canada,Mid-Day,Weekend,14.23
+2023-01-29,BrandC,Canada,Afternoon,Weekend,16.62
+2023-01-29,BrandC,Canada,Evening,Weekend,14.66
+2023-01-29,BrandC,Canada,Night,Weekend,12.95
+2023-01-29,BrandC,Canada,Late Night,Weekend,5.63
+2023-01-30,BrandA,USA,Early Morning,Weekday,19.53
+2023-01-30,BrandA,USA,Morning,Weekday,16.98
+2023-01-30,BrandA,USA,Mid-Day,Weekday,9.39
+2023-01-30,BrandA,USA,Afternoon,Weekday,19.7
+2023-01-30,BrandA,USA,Evening,Weekday,14.03
+2023-01-30,BrandA,USA,Night,Weekday,13.74
+2023-01-30,BrandA,USA,Late Night,Weekday,16.22
+2023-01-30,BrandA,UK,Early Morning,Weekday,17.18
+2023-01-30,BrandA,UK,Morning,Weekday,14.85
+2023-01-30,BrandA,UK,Mid-Day,Weekday,6.92
+2023-01-30,BrandA,UK,Afternoon,Weekday,10.07
+2023-01-30,BrandA,UK,Evening,Weekday,18.92
+2023-01-30,BrandA,UK,Night,Weekday,8.37
+2023-01-30,BrandA,UK,Late Night,Weekday,10.58
+2023-01-30,BrandA,Canada,Early Morning,Weekday,11.48
+2023-01-30,BrandA,Canada,Morning,Weekday,11.59
+2023-01-30,BrandA,Canada,Mid-Day,Weekday,14.19
+2023-01-30,BrandA,Canada,Afternoon,Weekday,19.15
+2023-01-30,BrandA,Canada,Evening,Weekday,8.61
+2023-01-30,BrandA,Canada,Night,Weekday,6.82
+2023-01-30,BrandA,Canada,Late Night,Weekday,7.96
+2023-01-30,BrandB,USA,Early Morning,Weekday,18.3
+2023-01-30,BrandB,USA,Morning,Weekday,14.69
+2023-01-30,BrandB,USA,Mid-Day,Weekday,9.29
+2023-01-30,BrandB,USA,Afternoon,Weekday,17.24
+2023-01-30,BrandB,USA,Evening,Weekday,17.92
+2023-01-30,BrandB,USA,Night,Weekday,17.7
+2023-01-30,BrandB,USA,Late Night,Weekday,18.78
+2023-01-30,BrandB,UK,Early Morning,Weekday,8.78
+2023-01-30,BrandB,UK,Morning,Weekday,16.33
+2023-01-30,BrandB,UK,Mid-Day,Weekday,11.91
+2023-01-30,BrandB,UK,Afternoon,Weekday,17.63
+2023-01-30,BrandB,UK,Evening,Weekday,15.93
+2023-01-30,BrandB,UK,Night,Weekday,16.65
+2023-01-30,BrandB,UK,Late Night,Weekday,14.84
+2023-01-30,BrandB,Canada,Early Morning,Weekday,7.66
+2023-01-30,BrandB,Canada,Morning,Weekday,13.18
+2023-01-30,BrandB,Canada,Mid-Day,Weekday,19.77
+2023-01-30,BrandB,Canada,Afternoon,Weekday,19.06
+2023-01-30,BrandB,Canada,Evening,Weekday,5.65
+2023-01-30,BrandB,Canada,Night,Weekday,7.47
+2023-01-30,BrandB,Canada,Late Night,Weekday,6.98
+2023-01-30,BrandC,USA,Early Morning,Weekday,15.89
+2023-01-30,BrandC,USA,Morning,Weekday,17.27
+2023-01-30,BrandC,USA,Mid-Day,Weekday,8.2
+2023-01-30,BrandC,USA,Afternoon,Weekday,12.59
+2023-01-30,BrandC,USA,Evening,Weekday,17.61
+2023-01-30,BrandC,USA,Night,Weekday,15.99
+2023-01-30,BrandC,USA,Late Night,Weekday,13.13
+2023-01-30,BrandC,UK,Early Morning,Weekday,13.86
+2023-01-30,BrandC,UK,Morning,Weekday,12.63
+2023-01-30,BrandC,UK,Mid-Day,Weekday,9.46
+2023-01-30,BrandC,UK,Afternoon,Weekday,13.48
+2023-01-30,BrandC,UK,Evening,Weekday,15.33
+2023-01-30,BrandC,UK,Night,Weekday,18.1
+2023-01-30,BrandC,UK,Late Night,Weekday,14.54
+2023-01-30,BrandC,Canada,Early Morning,Weekday,16.42
+2023-01-30,BrandC,Canada,Morning,Weekday,7.4
+2023-01-30,BrandC,Canada,Mid-Day,Weekday,11.92
+2023-01-30,BrandC,Canada,Afternoon,Weekday,5.14
+2023-01-30,BrandC,Canada,Evening,Weekday,8.7
+2023-01-30,BrandC,Canada,Night,Weekday,15.9
+2023-01-30,BrandC,Canada,Late Night,Weekday,19.88
+2023-01-31,BrandA,USA,Early Morning,Weekday,6.49
+2023-01-31,BrandA,USA,Morning,Weekday,11.02
+2023-01-31,BrandA,USA,Mid-Day,Weekday,17.0
+2023-01-31,BrandA,USA,Afternoon,Weekday,8.06
+2023-01-31,BrandA,USA,Evening,Weekday,13.33
+2023-01-31,BrandA,USA,Night,Weekday,16.0
+2023-01-31,BrandA,USA,Late Night,Weekday,14.24
+2023-01-31,BrandA,UK,Early Morning,Weekday,7.82
+2023-01-31,BrandA,UK,Morning,Weekday,10.33
+2023-01-31,BrandA,UK,Mid-Day,Weekday,16.76
+2023-01-31,BrandA,UK,Afternoon,Weekday,13.31
+2023-01-31,BrandA,UK,Evening,Weekday,5.08
+2023-01-31,BrandA,UK,Night,Weekday,16.41
+2023-01-31,BrandA,UK,Late Night,Weekday,5.53
+2023-01-31,BrandA,Canada,Early Morning,Weekday,16.19
+2023-01-31,BrandA,Canada,Morning,Weekday,8.04
+2023-01-31,BrandA,Canada,Mid-Day,Weekday,19.37
+2023-01-31,BrandA,Canada,Afternoon,Weekday,10.52
+2023-01-31,BrandA,Canada,Evening,Weekday,9.9
+2023-01-31,BrandA,Canada,Night,Weekday,7.23
+2023-01-31,BrandA,Canada,Late Night,Weekday,9.58
+2023-01-31,BrandB,USA,Early Morning,Weekday,18.15
+2023-01-31,BrandB,USA,Morning,Weekday,19.95
+2023-01-31,BrandB,USA,Mid-Day,Weekday,10.52
+2023-01-31,BrandB,USA,Afternoon,Weekday,11.73
+2023-01-31,BrandB,USA,Evening,Weekday,15.83
+2023-01-31,BrandB,USA,Night,Weekday,18.29
+2023-01-31,BrandB,USA,Late Night,Weekday,13.9
+2023-01-31,BrandB,UK,Early Morning,Weekday,10.87
+2023-01-31,BrandB,UK,Morning,Weekday,11.19
+2023-01-31,BrandB,UK,Mid-Day,Weekday,15.43
+2023-01-31,BrandB,UK,Afternoon,Weekday,5.05
+2023-01-31,BrandB,UK,Evening,Weekday,14.29
+2023-01-31,BrandB,UK,Night,Weekday,10.33
+2023-01-31,BrandB,UK,Late Night,Weekday,16.91
+2023-01-31,BrandB,Canada,Early Morning,Weekday,6.39
+2023-01-31,BrandB,Canada,Morning,Weekday,13.82
+2023-01-31,BrandB,Canada,Mid-Day,Weekday,12.21
+2023-01-31,BrandB,Canada,Afternoon,Weekday,14.63
+2023-01-31,BrandB,Canada,Evening,Weekday,5.97
+2023-01-31,BrandB,Canada,Night,Weekday,13.7
+2023-01-31,BrandB,Canada,Late Night,Weekday,13.42
+2023-01-31,BrandC,USA,Early Morning,Weekday,13.41
+2023-01-31,BrandC,USA,Morning,Weekday,14.05
+2023-01-31,BrandC,USA,Mid-Day,Weekday,15.15
+2023-01-31,BrandC,USA,Afternoon,Weekday,17.07
+2023-01-31,BrandC,USA,Evening,Weekday,9.05
+2023-01-31,BrandC,USA,Night,Weekday,17.38
+2023-01-31,BrandC,USA,Late Night,Weekday,12.47
+2023-01-31,BrandC,UK,Early Morning,Weekday,6.16
+2023-01-31,BrandC,UK,Morning,Weekday,5.88
+2023-01-31,BrandC,UK,Mid-Day,Weekday,10.01
+2023-01-31,BrandC,UK,Afternoon,Weekday,16.77
+2023-01-31,BrandC,UK,Evening,Weekday,15.62
+2023-01-31,BrandC,UK,Night,Weekday,16.83
+2023-01-31,BrandC,UK,Late Night,Weekday,12.76
+2023-01-31,BrandC,Canada,Early Morning,Weekday,11.6
+2023-01-31,BrandC,Canada,Morning,Weekday,7.21
+2023-01-31,BrandC,Canada,Mid-Day,Weekday,9.92
+2023-01-31,BrandC,Canada,Afternoon,Weekday,11.51
+2023-01-31,BrandC,Canada,Evening,Weekday,6.33
+2023-01-31,BrandC,Canada,Night,Weekday,8.31
+2023-01-31,BrandC,Canada,Late Night,Weekday,13.97

@@ -1,0 +1,220 @@
+{% extends "search_app/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="sov-trend-container">
+    <h2>SOV Trend</h2>
+
+    {% if no_data %}
+        <p>No data available. Please upload data first.</p>
+    {% else %}
+        <p>Spectrum Weekday SOV was {{ overall_sov }} and it lost {{ weekend_loss }} share on the weekend.</p>
+
+        <div class="sov-charts">
+            <div class="chart-box">
+                <h3>Weekday Paid SOV</h3>
+                <p>Weekday SOV Peaks: {{ weekday_peaks }} (In line with the Category)</p>
+                <div class="chart-container">
+                    <canvas id="weekdayChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-box">
+                <h3>Weekend Paid SOV</h3>
+                <p>Weekend SOV Peaks: {{ weekend_peaks }} (Not in line with the Category)</p>
+                <div class="chart-container">
+                    <canvas id="weekendChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <p>Impressions Peak: Afternoon (~30% of Daily) on weekdays and Nights (~37%) on weekend. (In line with Category - Not Reported here)</p>
+    {% endif %}
+</div>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100%;
+        background-color: #f3f4f6; /* Slightly darker background for contrast */
+    }
+
+    .sov-trend-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px; /* More rounded corners for a modern look */
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+    }
+
+    .sov-charts {
+        display: flex;
+        justify-content: space-around; /* Evenly space charts */
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px; /* Space between text and charts */
+    }
+
+    .chart-box {
+        flex: 1;
+        min-width: 300px;
+        max-width: 48%;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow style */
+        transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+        margin-bottom: 20px;
+    }
+
+    .chart-box:hover {
+        transform: translateY(-5px); /* Subtle lift on hover */
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    }
+
+    .chart-container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+
+    canvas {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: #333; /* Darker text for better readability */
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #555; /* Subtle gray for secondary text */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .insights-container {
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .insights-container h3 {
+        margin-top: 0;
+    }
+
+    .insights-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .insights-list li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .insights-list li:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #007bff;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var chartData = {{ chart_data|safe }};
+    
+    function createChart(ctx, label, data, color) {
+        return new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: chartData.labels,
+                datasets: [{
+                    label: label,
+                    data: data,
+                    borderColor: color,
+                    backgroundColor: color.replace('1)', '0.2)'), // Gradient fill for the line
+                    fill: true, // Fill under the line for better visualization
+                    tension: 0.4, // Smoother curves
+                    pointRadius: 6, // Larger points for better visibility
+                    pointHoverRadius: 8, // Larger hover points
+                    pointBackgroundColor: '#fff', // White background for points
+                    pointBorderWidth: 2, // Border around points for clarity
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            boxWidth: 20,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    },
+                    tooltip: {
+                        enabled: true,
+                        mode: 'nearest',
+                        intersect: false,
+                        backgroundColor: 'rgba(0,0,0,0.8)',
+                        titleFont: {
+                            size: 14
+                        },
+                        bodyFont: {
+                            size: 12
+                        },
+                        padding: 10,
+                        cornerRadius: 5
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 40,
+                        title: {
+                            display: true,
+                            text: 'Share of Voice (%)',
+                            font: {
+                                size: 16
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(200, 200, 200, 0.3)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Time Period',
+                            font: {
+                                size: 16
+                            }
+                        },
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    var weekdayCtx = document.getElementById('weekdayChart').getContext('2d');
+    var weekendCtx = document.getElementById('weekendChart').getContext('2d');
+
+    createChart(weekdayCtx, 'Weekday', chartData.weekday, 'rgba(255, 99, 132, 1)');
+    createChart(weekendCtx, 'Weekend', chartData.weekend, 'rgba(75, 192, 192, 1)');
+</script>
+{% endblock %}

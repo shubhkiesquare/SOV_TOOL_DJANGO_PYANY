@@ -1,0 +1,2041 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5976
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2479
+"GET / HTTP/1.1" 200 5976
+"GET / HTTP/1.1" 200 5258
+"GET / HTTP/1.1" 200 4311
+"GET / HTTP/1.1" 200 4311
+"GET / HTTP/1.1" 200 4311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2479
+"GET / HTTP/1.1" 200 4303
+"GET / HTTP/1.1" 200 4748
+"GET / HTTP/1.1" 200 4806
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6030
+"POST / HTTP/1.1" 200 6474
+"POST / HTTP/1.1" 200 6393
+"POST / HTTP/1.1" 200 6393
+"POST / HTTP/1.1" 200 6393
+"POST / HTTP/1.1" 200 6393
+"POST / HTTP/1.1" 200 6393
+"POST / HTTP/1.1" 200 6393
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7363
+"POST / HTTP/1.1" 200 135
+"POST / HTTP/1.1" 200 135
+"GET / HTTP/1.1" 200 7363
+"POST / HTTP/1.1" 200 135
+"POST / HTTP/1.1" 200 135
+"POST / HTTP/1.1" 200 140
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 31, in search_view
+    form.cleaned_data['end_date']
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\celery\app\task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\celery\app\task.py", line 540, in apply_async
+    check_arguments(*(args or ()), **(kwargs or {}))
+TypeError: schedule_search() takes 1 positional argument but 8 were given
+"POST / HTTP/1.1" 500 83637
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7363
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2479
+"POST / HTTP/1.1" 200 187
+"POST / HTTP/1.1" 200 187
+"POST / HTTP/1.1" 200 187
+"POST / HTTP/1.1" 200 135
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7205
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 200 40
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7205
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 200 40
+"GET / HTTP/1.1" 200 7205
+"GET / HTTP/1.1" 200 7484
+"POST / HTTP/1.1" 200 40
+Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 38, in dashboard_view
+    return render(request, 'search_app/dashboard.html', {'queries': queries})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /dashboard/ HTTP/1.1" 500 153842
+"GET /dashboard/ HTTP/1.1" 200 16364
+"GET /results/1/ HTTP/1.1" 200 635
+"GET /results/31/ HTTP/1.1" 200 635
+"GET /results/23/ HTTP/1.1" 200 635
+"GET / HTTP/1.1" 200 7484
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7484
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 302 0
+Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 50, in dashboard_view
+    return render(request, 'search_app/dashboard.html', {'queries': queries})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 212, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+"GET /dashboard/ HTTP/1.1" 500 190363
+"POST / HTTP/1.1" 302 0
+Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 50, in dashboard_view
+    return render(request, 'search_app/dashboard.html', {'queries': queries})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 212, in do_block
+    raise TemplateSyntaxError("'%s' tag with name '%s' appears more than once" % (bits[0], block_name))
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+"GET /dashboard/ HTTP/1.1" 500 190273
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7484
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 16117
+"POST / HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 16546
+"GET /dashboard/ HTTP/1.1" 200 16546
+"GET / HTTP/1.1" 200 7484
+"GET /dashboard/ HTTP/1.1" 200 16546
+"POST /dashboard/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 1677
+"GET / HTTP/1.1" 200 7484
+"POST / HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 2010
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 33, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 156265
+"GET / HTTP/1.1" 200 7136
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 2439
+"GET /results/37/ HTTP/1.1" 200 635
+"GET / HTTP/1.1" 200 7136
+"GET / HTTP/1.1" 200 6517
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 33, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 156921
+"GET / HTTP/1.1" 200 8001
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET /dashboard/ HTTP/1.1" 200 2439
+"GET / HTTP/1.1" 200 8001
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8059
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8059
+"GET /dashboard/ HTTP/1.1" 200 2439
+"GET /dashboard/ HTTP/1.1" 200 2439
+"GET /dashboard/ HTTP/1.1" 200 6294
+Not Found: /dashboard/path_to_your_logo.png
+"GET /dashboard/path_to_your_logo.png HTTP/1.1" 404 2714
+"GET / HTTP/1.1" 200 8059
+"GET /dashboard/ HTTP/1.1" 200 6294
+Not Found: /dashboard/path_to_your_logo.png
+"GET /dashboard/path_to_your_logo.png HTTP/1.1" 404 2714
+"GET / HTTP/1.1" 200 8059
+"GET / HTTP/1.1" 200 8091
+"GET / HTTP/1.1" 200 8091
+"GET / HTTP/1.1" 200 8091
+"GET / HTTP/1.1" 200 8091
+"GET / HTTP/1.1" 200 8091
+"GET /dashboard/ HTTP/1.1" 200 6384
+"GET /dashboard/ HTTP/1.1" 200 6384
+"GET / HTTP/1.1" 200 8091
+"GET /dashboard/ HTTP/1.1" 200 6384
+"GET / HTTP/1.1" 200 8091
+"GET / HTTP/1.1" 200 8076
+"GET / HTTP/1.1" 200 8076
+"GET /dashboard/ HTTP/1.1" 200 6384
+"GET / HTTP/1.1" 200 8076
+"GET / HTTP/1.1" 200 8076
+"GET / HTTP/1.1" 200 8076
+"GET / HTTP/1.1" 200 8076
+"GET /dashboard/ HTTP/1.1" 200 6384
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 31, in search_view
+    common_styles = render_to_string('common_styles.html')
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: common_styles.html
+"GET / HTTP/1.1" 500 84877
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8386
+"GET / HTTP/1.1" 200 8386
+Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 51, in dashboard_view
+    common_styles = render_to_string('common_styles.html')
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: common_styles.html
+"GET /dashboard/ HTTP/1.1" 500 78947
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard/ HTTP/1.1" 200 5032
+"GET / HTTP/1.1" 200 8386
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9650
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET /dashboard/ HTTP/1.1" 200 5810
+Not Found: /dashboard/path_to_your_logo.png
+"GET /dashboard/path_to_your_logo.png HTTP/1.1" 404 2714
+"POST /dashboard/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 4630
+Not Found: /dashboard/path_to_your_logo.png
+"GET /dashboard/path_to_your_logo.png HTTP/1.1" 404 2714
+"GET / HTTP/1.1" 200 9650
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET / HTTP/1.1" 200 10659
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET / HTTP/1.1" 200 10659
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 5141
+Not Found: /dashboard/path_to_your_logo.png
+"GET /dashboard/path_to_your_logo.png HTTP/1.1" 404 2714
+"GET / HTTP/1.1" 200 10659
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET / HTTP/1.1" 200 11424
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET / HTTP/1.1" 200 11420
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2684
+"GET / HTTP/1.1" 200 11443
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+"GET / HTTP/1.1" 200 11443
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+"GET / HTTP/1.1" 200 11443
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+"GET / HTTP/1.1" 200 11443
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+"GET / HTTP/1.1" 200 11443
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+"GET / HTTP/1.1" 200 11443
+Not Found: /search_project/search_app/templates/logo.png
+"GET /search_project/search_app/templates/logo.png HTTP/1.1" 404 2753
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 32, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'static', expected 'endblock'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 180177
+"GET / HTTP/1.1" 200 11451
+"GET /static/search_project/search_app/templates/logo.png HTTP/1.1" 404 1891
+"GET / HTTP/1.1" 200 11451
+"GET /static/search_project/search_app/templates/logo.png HTTP/1.1" 404 1891
+"GET /dashboard/ HTTP/1.1" 200 5136
+Not Found: /dashboard/path_to_your_logo.png
+"GET /dashboard/path_to_your_logo.png HTTP/1.1" 404 2714
+"GET / HTTP/1.1" 200 11451
+"GET /static/search_project/search_app/templates/logo.png HTTP/1.1" 404 1891
+"GET / HTTP/1.1" 200 11352
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 5738
+"POST /dashboard/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"GET / HTTP/1.1" 200 11352
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 5062
+"GET / HTTP/1.1" 200 11352
+"POST / HTTP/1.1" 200 83
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 5736
+"POST /dashboard/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 5068
+"GET / HTTP/1.1" 200 11352
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 5742
+"GET / HTTP/1.1" 200 11352
+No hostname was supplied. Reverting to default 'localhost'
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11352
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2654
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 6412
+"GET /results/44/ HTTP/1.1" 200 635
+"GET / HTTP/1.1" 200 11352
+"GET /dashboard/ HTTP/1.1" 200 6412
+"GET /results/44/ HTTP/1.1" 200 635
+"GET /results/44/ HTTP/1.1" 200 635
+"GET / HTTP/1.1" 200 11352
+"GET /dashboard/ HTTP/1.1" 200 6412
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\tasks.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard/ HTTP/1.1" 200 6412
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11352
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2654
+No hostname was supplied. Reverting to default 'localhost'
+"POST / HTTP/1.1" 200 40
+"GET /dashboard/ HTTP/1.1" 200 7082
+"POST /dashboard/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"POST / HTTP/1.1" 200 86
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 11352
+"GET / HTTP/1.1" 200 11352
+"GET /dashboard/ HTTP/1.1" 200 4557
+"GET / HTTP/1.1" 200 11352
+"GET / HTTP/1.1" 200 12932
+Not Found: /path_to_your_logo.png
+"GET /path_to_your_logo.png HTTP/1.1" 404 2857
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 67, in analysis_view
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Shubham\\OneDrive\\Documents\\sov_bright_data\\search_project\\search_results.csv'
+"GET /analysis/ HTTP/1.1" 500 123912
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 37, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 71: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 187353
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 37, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 71: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 187490
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 37, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 71: 'static'. Did you forget to register or load this tag?
+"GET / HTTP/1.1" 500 187353
+"GET / HTTP/1.1" 200 13281
+"GET / HTTP/1.1" 200 13281
+"GET / HTTP/1.1" 200 13281
+"GET /dashboard/ HTTP/1.1" 200 6486
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 67, in analysis_view
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Shubham\\OneDrive\\Documents\\sov_bright_data\\search_project\\search_results.csv'
+"GET /analysis/ HTTP/1.1" 500 123922
+"GET / HTTP/1.1" 200 13281
+"GET /dashboard/ HTTP/1.1" 200 6486
+"GET / HTTP/1.1" 200 13281
+"GET /dashboard/ HTTP/1.1" 200 6486
+"GET / HTTP/1.1" 200 13281
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 67, in analysis_view
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\parsers\base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\io\common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Shubham\\OneDrive\\Documents\\sov_bright_data\\search_project\\search_results.csv'
+"GET /analysis/ HTTP/1.1" 500 123912
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13281
+"GET /analysis/ HTTP/1.1" 200 9631
+"GET /analysis/?brand=BrandA&date=2023-01-02&country=USA HTTP/1.1" 200 6321
+"GET / HTTP/1.1" 200 13281
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 111, in analysis_view
+    return render(request, 'search_app/analysis.html', context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /analysis/ HTTP/1.1" 500 153355
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13281
+"GET /analysis/ HTTP/1.1" 200 10118
+"GET /dashboard/ HTTP/1.1" 200 6486
+"GET / HTTP/1.1" 200 13281
+"GET /analysis/ HTTP/1.1" 200 10118
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /analysis/
+"GET /analysis/?brand=BrandA&date=2023-01-01&country=USA HTTP/1.1" 404 3441
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 37, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'analysis' not found. 'analysis' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 171269
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\views\decorators\http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 50, in search_view
+    'cities_by_country': cities_by_country
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'analysis' not found. 'analysis' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 171109
+"GET / HTTP/1.1" 200 13281
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136542
+"GET / HTTP/1.1" 200 13281
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 13281
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13281
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 12926
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'type'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 116, in sov_analysis
+    paid_sov = df[df['type'] == 'paid_ads'].groupby(['day', 'hour']).size().unstack(fill_value=0)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'type'
+"GET /analysis/ HTTP/1.1" 500 136405
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83517
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83517
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83665
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83665
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83528
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83665
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83665
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 124, in sov_analysis
+    return render(request, 'sov_analysis.html', {'error': 'No data available. Please upload data first.'})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 83528
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /analysis/ HTTP/1.1" 200 2402
+"GET /analysis/ HTTP/1.1" 200 2402
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 2402
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 2741
+"POST /analysis/ HTTP/1.1" 200 2741
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 145, in sov_analysis
+    result_type=row['type']
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1360, in as_sql
+    for obj in self.query.objs
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1360, in <listcomp>
+    for obj in self.query.objs
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1271, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1266, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1241, in to_python
+    params={'value': value},
+django.core.exceptions.ValidationError: ['“07/27/2024” value has an invalid date format. It must be in YYYY-MM-DD format.']
+"POST /analysis/ HTTP/1.1" 500 162584
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 128, in sov_analysis
+    isd_date = datetime.strptime(row['ISD_Date'], '%m/%d/%Y').strftime('%Y-%m-%d')
+NameError: name 'datetime' is not defined
+"POST /analysis/ HTTP/1.1" 500 73891
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1823, in get_prep_value
+    return int(value)
+ValueError: cannot convert float NaN to integer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 150, in sov_analysis
+    result_type=row['type']
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1360, in as_sql
+    for obj in self.query.objs
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1360, in <listcomp>
+    for obj in self.query.objs
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 842, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 837, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\fields\__init__.py", line 1827, in get_prep_value
+    ) from e
+ValueError: Field 'global_rank' expected a number but got nan.
+"POST /analysis/ HTTP/1.1" 500 165058
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 172, in sov_analysis
+    insights = generate_insights(paid_sov, weekday, weekend)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 191, in generate_insights
+    weekday_peak = weekday.idxmax()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\series.py", line 2355, in idxmax
+    i = self.argmax(axis, skipna, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\base.py", line 648, in argmax
+    delegate, skipna=skipna
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 94, in _f
+    return f(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 1071, in nanargmax
+    result = values.argmax(axis)  # type: ignore[var-annotated]
+ValueError: attempt to get argmax of an empty sequence
+"GET /analysis/ HTTP/1.1" 500 94874
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 172, in sov_analysis
+    insights = generate_insights(paid_sov, weekday, weekend)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 191, in generate_insights
+    weekday_peak = weekday.idxmax()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\series.py", line 2355, in idxmax
+    i = self.argmax(axis, skipna, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\base.py", line 648, in argmax
+    delegate, skipna=skipna
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 94, in _f
+    return f(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 1071, in nanargmax
+    result = values.argmax(axis)  # type: ignore[var-annotated]
+ValueError: attempt to get argmax of an empty sequence
+"GET /analysis/ HTTP/1.1" 500 94874
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 172, in sov_analysis
+    insights = generate_insights(paid_sov, weekday, weekend)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 191, in generate_insights
+    weekday_peak = weekday.idxmax()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\series.py", line 2355, in idxmax
+    i = self.argmax(axis, skipna, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\base.py", line 648, in argmax
+    delegate, skipna=skipna
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 94, in _f
+    return f(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 1071, in nanargmax
+    result = values.argmax(axis)  # type: ignore[var-annotated]
+ValueError: attempt to get argmax of an empty sequence
+"GET /analysis/ HTTP/1.1" 500 94874
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 172, in sov_analysis
+    insights = generate_insights(paid_sov, weekday, weekend)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 191, in generate_insights
+    weekday_peak = weekday.idxmax()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\series.py", line 2355, in idxmax
+    i = self.argmax(axis, skipna, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\base.py", line 648, in argmax
+    delegate, skipna=skipna
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 94, in _f
+    return f(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 1071, in nanargmax
+    result = values.argmax(axis)  # type: ignore[var-annotated]
+ValueError: attempt to get argmax of an empty sequence
+"GET /analysis/ HTTP/1.1" 500 95011
+"GET /analysis/ HTTP/1.1" 200 2741
+"POST /analysis/ HTTP/1.1" 302 0
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 172, in sov_analysis
+    insights = generate_insights(paid_sov, weekday, weekend)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 191, in generate_insights
+    weekday_peak = weekday.idxmax()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\series.py", line 2355, in idxmax
+    i = self.argmax(axis, skipna, *args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\base.py", line 648, in argmax
+    delegate, skipna=skipna
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 94, in _f
+    return f(*args, **kwargs)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\pandas\core\nanops.py", line 1071, in nanargmax
+    result = values.argmax(axis)  # type: ignore[var-annotated]
+ValueError: attempt to get argmax of an empty sequence
+"GET /analysis/ HTTP/1.1" 500 95038
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 173, in sov_analysis
+    return render(request, 'sov_analysis.html', {'no_paid_ads': True})
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_analysis.html
+"GET /analysis/ HTTP/1.1" 500 87409
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /analysis/ HTTP/1.1" 200 3021
+"GET /analysis/ HTTP/1.1" 200 3021
+"POST /analysis/ HTTP/1.1" 200 3021
+"POST /analysis/ HTTP/1.1" 302 0
+"GET /analysis/ HTTP/1.1" 200 3021
+"GET /analysis/ HTTP/1.1" 200 2741
+"POST /analysis/ HTTP/1.1" 302 0
+"GET /analysis/ HTTP/1.1" 200 3021
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 3021
+"GET / HTTP/1.1" 200 12926
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 165, in sov_analysis
+    if not results.exists():
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 808, in exists
+    return self.query.has_results(using=self.db)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 561, in has_results
+    return compiler.has_results()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1145, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 64166)
+
+Internal Server Error: /analysis/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 165, in sov_analysis
+    if not results.exists():
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\query.py", line 808, in exists
+    return self.query.has_results(using=self.db)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\query.py", line 561, in has_results
+    return compiler.has_results()
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1145, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+"GET /analysis/ HTTP/1.1" 500 126370
+"GET /analysis/ HTTP/1.1" 200 2741
+"POST /analysis/ HTTP/1.1" 302 0
+"GET /analysis/ HTTP/1.1" 200 3021
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 3021
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 3021
+"POST /analysis/ HTTP/1.1" 302 0
+"GET /analysis/ HTTP/1.1" 200 3021
+"GET /analysis/ HTTP/1.1" 200 2741
+"POST /analysis/ HTTP/1.1" 302 0
+"GET /analysis/ HTTP/1.1" 200 3021
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3177
+"GET /analysis/ HTTP/1.1" 200 3910
+"POST /analysis/ HTTP/1.1" 200 3910
+"POST /analysis/ HTTP/1.1" 200 3910
+"POST /analysis/ HTTP/1.1" 200 3910
+"POST /analysis/ HTTP/1.1" 200 3910
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 4266
+CSV file SOV_CSV_oFOHmJf.csv uploaded and processed successfully.
+"POST /analysis/ HTTP/1.1" 200 4401
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+"GET /analysis/ HTTP/1.1" 200 4911
+CSV file SOV_CSV_2xCXS4L.csv uploaded and processed successfully.
+- Broken pipe from ('127.0.0.1', 65238)
+
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12926
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12987
+Internal Server Error: /trend/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 241, in sov_trend
+    overall_sov = (total_spectrum_ads / total_paid_ads) * 100
+ZeroDivisionError: division by zero
+"GET /trend/ HTTP/1.1" 500 73438
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12987
+Internal Server Error: /trend/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 267, in sov_trend
+    return render(request, 'sov_trend.html', context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sov_trend.html
+"GET /trend/ HTTP/1.1" 500 93351
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12987
+"GET /trend/ HTTP/1.1" 200 4583
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /trend/ HTTP/1.1" 200 4784
+"GET /analysis/ HTTP/1.1" 200 4972
+"GET / HTTP/1.1" 200 12987
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 12987
+"GET /analysis/ HTTP/1.1" 200 4972
+"GET /trend/ HTTP/1.1" 200 4784
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13058
+"GET /geography/ HTTP/1.1" 200 4379
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13146
+"GET /core-vs-non-core/ HTTP/1.1" 200 6532
+"GET /geography/ HTTP/1.1" 200 4467
+"GET /trend/ HTTP/1.1" 200 4943
+"GET /analysis/ HTTP/1.1" 200 5131
+"GET / HTTP/1.1" 200 13146
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 13146
+"GET /analysis/ HTTP/1.1" 200 5131
+"GET /trend/ HTTP/1.1" 200 4943
+"GET /geography/ HTTP/1.1" 200 4467
+"GET /core-vs-non-core/ HTTP/1.1" 200 6532
+"GET /analysis/ HTTP/1.1" 200 5131
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13229
+Internal Server Error: /top-10-kw-paid-sov/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 423, in top_10_kw_paid_sov
+    'kw1': top_10_keywords[0],
+IndexError: list index out of range
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 500 73450
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /top-10-kw-paid-sov/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: source_app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 427, in top_10_kw_paid_sov
+    return render(request, 'search_app/top_10_kw_paid_sov.html', context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: source_app/base.html
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 500 154857
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5066
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5066
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5066
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5066
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5066
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5066
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 5234
+"GET / HTTP/1.1" 200 13229
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 13229
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 13229
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET /analysis/ HTTP/1.1" 200 5214
+"GET /trend/ HTTP/1.1" 200 5026
+"GET /geography/ HTTP/1.1" 200 4550
+"GET /core-vs-non-core/ HTTP/1.1" 200 6615
+"GET /analysis/ HTTP/1.1" 200 5214
+"GET /analysis/ HTTP/1.1" 200 6510
+"GET /analysis/ HTTP/1.1" 200 5145
+"GET /trend/ HTTP/1.1" 200 5026
+"GET /analysis/ HTTP/1.1" 200 5145
+"POST /analysis/ HTTP/1.1" 200 5145
+"GET /analysis/ HTTP/1.1" 200 5145
+"POST /analysis/ HTTP/1.1" 200 5145
+"POST /analysis/ HTTP/1.1" 200 5214
+"POST /analysis/ HTTP/1.1" 200 5214
+"GET /trend/ HTTP/1.1" 200 5026
+"GET /trend/ HTTP/1.1" 200 4979
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_project\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13283
+"GET /static/style.css HTTP/1.1" 404 1786
+"GET /analysis/ HTTP/1.1" 200 5268
+"GET /static/style.css HTTP/1.1" 404 1786
+Internal Server Error: /trend/
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py", line 267, in sov_trend
+    return render(request, 'search_app/sov_trend.html', context)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Shubham\AppData\Local\Programs\Python\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /trend/ HTTP/1.1" 500 147028
+"GET /trend/ HTTP/1.1" 200 5080
+"GET /static/style.css HTTP/1.1" 404 1786
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14629
+"GET /static/style.css HTTP/1.1" 404 1786
+"GET /analysis/ HTTP/1.1" 200 6614
+"GET /static/style.css HTTP/1.1" 404 1786
+"GET /trend/ HTTP/1.1" 200 6426
+"GET /static/style.css HTTP/1.1" 404 1786
+"GET /trend/ HTTP/1.1" 200 6374
+"GET /trend/ HTTP/1.1" 200 6374
+"GET /trend/ HTTP/1.1" 200 6374
+"GET / HTTP/1.1" 200 14577
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 14577
+"GET /trend/ HTTP/1.1" 200 8682
+"GET /trend/ HTTP/1.1" 200 8682
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14577
+"GET /trend/ HTTP/1.1" 200 7975
+"GET /trend/ HTTP/1.1" 200 8241
+"GET /trend/ HTTP/1.1" 200 9648
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /analysis/ HTTP/1.1" 200 11011
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /analysis/ HTTP/1.1" 200 11322
+"GET /analysis/ HTTP/1.1" 200 11900
+"GET /analysis/ HTTP/1.1" 200 11900
+"GET /analysis/ HTTP/1.1" 200 11471
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /geography/ HTTP/1.1" 200 5898
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /core-vs-non-core/ HTTP/1.1" 200 7963
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /core-vs-non-core/ HTTP/1.1" 200 7963
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /analysis/ HTTP/1.1" 200 11471
+"GET /dashboard/ HTTP/1.1" 200 4232
+"GET / HTTP/1.1" 200 14577
+"GET /analysis/ HTTP/1.1" 200 11471
+"GET /trend/ HTTP/1.1" 200 10867
+"GET /geography/ HTTP/1.1" 200 9065
+"GET /core-vs-non-core/ HTTP/1.1" 200 7963
+"GET /core-vs-non-core/ HTTP/1.1" 200 11481
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 6582
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 9378
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 9460
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 10000
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 10082
+"GET /paid-vs-organic/ HTTP/1.1" 200 7863
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 10418
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 10418
+"GET /top-10-kw-paid-sov/ HTTP/1.1" 200 10082
+"GET /paid-vs-organic/ HTTP/1.1" 200 11767
+"GET /paid-vs-organic/ HTTP/1.1" 200 12184
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shubham\OneDrive\Documents\sov_bright_data\search_project\search_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /paid-vs-organic/ HTTP/1.1" 200 12271
+"GET /top-keyword-analysis/ HTTP/1.1" 200 10881
+"GET /top-keyword-analysis/ HTTP/1.1" 200 10881
+"GET /paid-vs-organic/ HTTP/1.1" 200 12208
+"GET /paid-vs-organic/ HTTP/1.1" 200 11915
+"GET /paid-vs-organic/ HTTP/1.1" 200 11950

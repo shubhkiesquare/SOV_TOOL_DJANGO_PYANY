@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}KiE Square{% endblock %}</title>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+        .app-container {
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #2c2c54;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-container {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .logo-container h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .nav-container {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .sidebar nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        .sidebar nav a.active {
+            background-color: #40b9ff;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .user-info {
+            text-align: right;
+            padding: 10px;
+            background-color: white;
+        }
+        .chart-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .chart-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .chart-column {
+            flex: 1;
+            margin: 0 10px;
+        }
+        
+        .chart-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .insights-container {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .insights-container h3 {
+            margin-top: 0;
+        }
+        
+        .insights-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .insights-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .insights-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #007bff;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo-container">
+                
+                <h1>KiE Square</h1>
+            </div>
+            <div class="nav-container">
+                <nav>
+                    <a href="{% url 'search' %}" {% if request.resolver_match.url_name == 'search' %}class="active"{% endif %}>Home</a>
+                    <a href="{% url 'dashboard' %}" {% if request.resolver_match.url_name == 'dashboard' %}class="active"{% endif %}>Dashboard</a>
+                    <a href="{% url 'sov_analysis' %}" {% if request.resolver_match.url_name == 'sov_analysis' %}class="active"{% endif %}>SOV Analysis</a>
+                    <a href="{% url 'sov_trend' %}" class="{% if request.resolver_match.url_name == 'sov_trend' %}active{% endif %}">SOV Trend</a>
+                    <a href="{% url 'geographic_trend' %}" class="{% if request.resolver_match.url_name == 'geographic_trend' %}active{% endif %}">Geography Trend</a>
+                    <a href="{% url 'core_vs_non_core_sov' %}" class="{% if request.resolver_match.url_name == 'core_vs_non_core_sov' %}active{% endif %}">Core Vs Non Core Paid SOV</a>
+                    <a href="{% url 'top_10_kw_paid_sov' %}" class="{% if request.resolver_match.url_name == 'top_10_kw_paid_sov' %}active{% endif %}">Top 10 KW Paid SOV</a>
+                    <a href="{% url 'paid_vs_organic_rank' %}" class="{% if request.resolver_match.url_name == 'paid_vs_organic_rank' %}active{% endif %}">Paid Vs Organic Rank</a>
+                    <a href="{% url 'top_keyword_analysis' %}" class="{% if request.resolver_match.url_name == 'top_keyword_analysis' %}active{% endif %}">Top Keyword Analysis</a>
+                </nav>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="user-info">
+                Hi User,
+            </div>
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

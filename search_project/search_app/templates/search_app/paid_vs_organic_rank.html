@@ -1,0 +1,238 @@
+{% extends "search_app/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="paid-vs-organic-rank-container">
+    <h2>Paid vs Organic Rank</h2>
+
+    {% if no_data %}
+        <p>No data available. Please upload data first.</p>
+    {% else %}
+        <div class="insights-container">
+            <h3>Insights</h3>
+            <ul class="insights-list">
+            {% for insight in insights %}
+                <li>{{ insight }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">Spectrum Paid vs Organic Performance by Top G-Ad Keywords Share</div>
+            <canvas id="paidVsOrganicChart"></canvas>
+        </div>
+    {% endif %}
+</div>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+    }
+
+    .paid-vs-organic-rank-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .insights-container {
+        margin-bottom: 20px;
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .insights-container h3 {
+        font-size: 18px;
+        color: #333;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .insights-list {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .insights-list li {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px; 
+        height: 400px; 
+        margin: 20px auto;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        padding-top: 40px; /* Increased top padding */
+        overflow: hidden;
+    }
+
+    .chart-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .paid-vs-organic-rank-container {
+            width: 90%;
+            padding: 15px;
+        }
+
+        .chart-container {
+            max-width: 90%;
+            height: 350px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .paid-vs-organic-rank-container {
+            width: 95%;
+            padding: 10px;
+        }
+
+        .chart-container {
+            max-width: 100%;
+            height: 300px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var chartData = {{ chart_data|safe }};
+    var ctx = document.getElementById('paidVsOrganicChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: chartData.labels,
+            datasets: [{
+                label: 'Category - KW SOV',
+                data: chartData.category_sov,
+                borderColor: 'rgb(0, 0, 0)',
+                backgroundColor: 'rgba(0, 0, 0, 0.1)',
+                fill: true,
+                tension: 0.3,
+                pointStyle: 'circle',
+                pointRadius: 5,
+                pointHoverRadius: 7
+            }, {
+                label: 'Spectrum - Paid',
+                data: chartData.paid_sov,
+                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: 'rgba(255, 99, 132, 0.1)',
+                fill: true,
+                tension: 0.3,
+                pointStyle: 'rectRot',
+                pointRadius: 5,
+                pointHoverRadius: 7
+            }, {
+                label: 'Spectrum - Organic',
+                data: chartData.organic_sov,
+                borderColor: 'rgb(128, 128, 128)',
+                backgroundColor: 'rgba(128, 128, 128, 0.1)',
+                fill: true,
+                tension: 0.3,
+                pointStyle: 'triangle',
+                pointRadius: 5,
+                pointHoverRadius: 7
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            layout: {
+                padding: {
+                    top: 50, // Increased top padding for chart area
+                    bottom: 20
+                }
+            },
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        boxWidth: 20,
+                        font: {
+                            size: 14
+                        },
+                        color: '#333'
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    backgroundColor: 'rgba(0,0,0,0.7)',
+                    titleFont: {
+                        size: 14
+                    },
+                    bodyFont: {
+                        size: 12
+                    },
+                    padding: 10,
+                    cornerRadius: 4
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 14, // Adjusted max value to ensure top line is not cut off
+                    title: {
+                        display: true,
+                        text: 'Share of Voice (%)',
+                        font: {
+                            size: 16
+                        }
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            return value + '%';
+                        }
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Time Period',
+                        font: {
+                            size: 16
+                        }
+                    },
+                    ticks: {
+                        maxRotation: 45,
+                        minRotation: 45
+                    }
+                }
+            }
+        }
+    });
+</script>
+{% endblock %}

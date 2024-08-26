@@ -1,0 +1,31 @@
+<!-- search_app/templates/search_app/results.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        .result { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; }
+        .result h2 { margin-top: 0; }
+        .result p { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h1>Search Results for "{{ search_query.query }}"</h1>
+    {% for result in results %}
+        <div class="result">
+            <h2>{{ result.title }}</h2>
+            <p>Keyword: {{ result.keyword }}</p>
+            <p>Rank: {{ result.rank }}</p>
+            <p><a href="{{ result.url }}" target="_blank">{{ result.url }}</a></p>
+            <p>{{ result.description }}</p>
+            <p>Timestamp: {{ result.timestamp }}</p>
+        </div>
+    {% empty %}
+        <p>No results found.</p>
+    {% endfor %}
+    <a href="{% url 'search' %}">Back to Search</a>
+</body>
+</html>

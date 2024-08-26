@@ -1,0 +1,182 @@
+{% extends "search_app/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="core-vs-non-core-container">
+    <h2>Core vs Non Core Paid SOV</h2>
+
+    {% if no_data %}
+        <p>No data available. Please upload data first.</p>
+    {% else %}
+        <div class="insights">
+            <ul>
+            {% for insight in insights %}
+                <li>{{ insight }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+
+        <h3>Paid SOV of Core Brands - for Top 10 Keywords</h3>
+        <div class="chart-container" style="position: relative; height:60vh; width:80vw;">
+            <canvas id="radarChart"></canvas>
+        </div>
+    {% endif %}
+</div>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+    }
+
+    .core-vs-non-core-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .insights {
+        margin-bottom: 20px;
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    h2, h3 {
+        font-size: 22px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    p, ul {
+        font-size: 14px;
+        color: #555;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .chart-container {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 800px;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+        .core-vs-non-core-container {
+            width: 90%;
+            padding: 15px;
+        }
+
+        .chart-container {
+            max-width: 90%;
+        }
+
+        h2, h3 {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .core-vs-non-core-container {
+            width: 95%;
+            padding: 10px;
+        }
+
+        .chart-container {
+            max-width: 100%;
+        }
+
+        h2, h3 {
+            font-size: 18px;
+        }
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var chartData = {{ chart_data|safe }};
+    var ctx = document.getElementById('radarChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'radar',
+        data: chartData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            elements: {
+                line: {
+                    borderWidth: 3,
+                    tension: 0.3 // Adds smooth curves to the radar lines
+                },
+                point: {
+                    radius: 5, // Larger points for visibility
+                    hoverRadius: 7 // Larger radius on hover for interaction
+                }
+            },
+            scales: {
+                r: {
+                    angleLines: {
+                        display: true,
+                        color: 'rgba(200, 200, 200, 0.3)' // Light grey angle lines for better readability
+                    },
+                    grid: {
+                        color: 'rgba(200, 200, 200, 0.5)' // Subtle grid lines
+                    },
+                    suggestedMin: 0,
+                    suggestedMax: 30,
+                    pointLabels: {
+                        font: {
+                            size: 14
+                        },
+                        color: '#333' // Darker labels for readability
+                    },
+                    ticks: {
+                        backdropColor: 'rgba(255, 255, 255, 0.8)', // White background for tick labels
+                        font: {
+                            size: 12
+                        }
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'bottom',
+                    labels: {
+                        font: {
+                            size: 14
+                        },
+                        color: '#333' // Dark text color for the legend
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    backgroundColor: 'rgba(0,0,0,0.7)',
+                    titleFont: {
+                        size: 14
+                    },
+                    bodyFont: {
+                        size: 12
+                    },
+                    padding: 10,
+                    cornerRadius: 4
+                }
+            },
+            animation: {
+                duration: 1500,
+                easing: 'easeOutElastic' // Adds a smooth elastic effect to the animation
+            }
+        }
+    });
+</script>
+{% endblock %}
