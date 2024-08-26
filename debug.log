@@ -2039,3 +2039,4 @@ Watching for file changes with StatReloader
 "GET /paid-vs-organic/ HTTP/1.1" 200 12208
 "GET /paid-vs-organic/ HTTP/1.1" 200 11915
 "GET /paid-vs-organic/ HTTP/1.1" 200 11950
+Watching for file changes with StatReloader
